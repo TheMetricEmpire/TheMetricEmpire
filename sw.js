@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-926b9d7ef29b60cd9023.js"
+    "url": "webpack-runtime-e6e1e82958b0868ae2d9.js"
   },
   {
-    "url": "app-90a347501c3a670c27ae.js"
+    "url": "app-b96f804424358407ec13.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-21bc2a5b368fe7e63044.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "cf0e9d544906de5b0a160653cf64ba34"
+    "revision": "63c2b9b1ab8851bf4b625e409eb1b004"
   },
   {
-    "url": "0.88efb821677d23b5a139.css"
+    "url": "0.1eb8565b239fa9c378c2.css"
   },
   {
     "url": "0-514d39bbf37bb6ab7c1f.js"
@@ -84,7 +84,7 @@ var navigationRoute = new workbox.routing.NavigationRoute(function (_ref) {
 
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      var offlineShell = "/TheMetricEmpire/offline-plugin-app-shell-fallback/index.html";
+      var offlineShell = "/offline-plugin-app-shell-fallback/index.html";
       var cacheName = workbox.core.cacheNames.precache;
       return caches.match(offlineShell, {
         cacheName: cacheName
@@ -141,7 +141,7 @@ var messageApi = {
           includesPrefix = _ref3.includesPrefix;
 
       if (!includesPrefix) {
-        return "/TheMetricEmpire" + pathname;
+        return "" + pathname;
       } else {
         return pathname;
       }
