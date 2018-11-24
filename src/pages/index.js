@@ -32,7 +32,7 @@ class Homepage extends React.Component {
         const siteTitle = "Metric Empire";
 
         return (
-            <Layout>
+            <Layout> 
                 <Helmet title={siteTitle} />
 
                 <section id="one" className="main style1">
@@ -51,7 +51,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="four" className="main style2 special">
+                <section id="four" className="main style3">
                     <div className="container">
                         <header className="major">
                             <h2>Our Games</h2>
@@ -83,7 +83,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="three" className="main style2 special">
+                <section id="three" className="main style3">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
