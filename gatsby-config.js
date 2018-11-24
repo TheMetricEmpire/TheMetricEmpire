@@ -4,7 +4,7 @@ module.exports = {
     author: "Hunter Chang",
     description: "A Gatsby.js Starter based on Photon by HTML5 UP"
   },
-  pathPrefix: '/TheMetricEmpire',
+  pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -20,6 +20,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Maven Pro','Lato']
+        }
+      }
+    }
   ],
 }
