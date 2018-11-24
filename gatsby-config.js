@@ -4,7 +4,7 @@ module.exports = {
     author: "Hunter Chang",
     description: "A Gatsby.js Starter based on Photon by HTML5 UP"
   },
-  pathPrefix: 'themetricempire.github.io/themetricempire/public',
+  pathPrefix: 'TheMetricEmpire.github.io/TheMetricEmpire/public',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
