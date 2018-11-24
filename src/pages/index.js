@@ -32,7 +32,7 @@ class Homepage extends React.Component {
                                 <h2>Our Mission</h2>
                             </header>
                             <p>
-                            Based in the colorful, creatively vibrant city of Montreal, Metric Empire is an independent game development studio founded in 2018 by AAA industry veteran directors Nicholas Routhier and Pier-Luc Papineau with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.
+                            Based in the colorful, creatively vibrant city of Montreal, Metric Empire is an independent game development studio founded in 2018 by AAA industry veteran directors Nicholas Routhier and Pier-Luc Papineau with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun!
                             </p>
                         </div>
                         <div className="col-6">
