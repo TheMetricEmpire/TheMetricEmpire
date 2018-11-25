@@ -936,8 +936,8 @@
 			@include padding(3em, 0, (0,0,_size(element-margin),0));
 			@include dark(#4686a0);
 			background-attachment:	fixed,							fixed,							fixed;
-			background-image:		url('../images/overlay2.png'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
-			background-position:	top left,						center center,					center center;
+			background-image:		linear-gradient(45deg, _palette(accent1-alt) 0%, _palette(accent6-alt) 40%, _palette(accent6-alt) 60%, _palette(accent1-alt) 100%);
+			background-position:	center center,						center center,					center center;
 			background-size:		auto,							cover,							cover;
 			overflow: hidden;
 			position: relative;
@@ -951,7 +951,7 @@
 		@include padding(3em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/overlay2.png'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
+		background-image:		linear-gradient(45deg, _palette(accent1-alt) 0%, _palette(accent6-alt) 40%, _palette(accent6-alt) 60%, _palette(accent1-alt) 100%);
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		overflow: hidden;
@@ -1034,8 +1034,8 @@
 		@include padding(6em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/overlay2.png'),		url('../images/overlay4.svg'),		linear-gradient(45deg, _palette(accent6-alt), _palette(accent3-alt) 50%, _palette(accent1-alt) 95%);
-		background-position:	top left,						center center,					center center;
+		background-image:		linear-gradient(45deg, _palette(accent1-alt) 0%, _palette(accent6-alt) 40%, _palette(accent6-alt) 60%, _palette(accent1-alt) 100%);
+		background-position:	center center,					center center,					center center;
 		background-size:		auto,							cover,							cover;
 		text-align: center;
 

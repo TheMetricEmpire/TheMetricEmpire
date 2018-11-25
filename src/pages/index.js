@@ -195,6 +195,7 @@ class Homepage extends React.Component {
                         )}
                         />
                          </ul>
+                         <h6>Metric Empire privacy policy link</h6>
                     </div>
                 </section>
             </Layout>
