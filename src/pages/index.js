@@ -120,7 +120,9 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Our Games</h2>
                         </header>
-                        <p>Working on it</p>
+                        <p>Working on it!<br></br>
+                        To be the first to learn about it, join our <Link to="/#newsletter">Newsletter!</Link></p>
+                    
                     </div>
                 </section>
 
@@ -146,37 +148,44 @@ class Homepage extends React.Component {
                         </div>
                     </div>
                 </section>
-
+<scrollTo to="/newletter"></scrollTo>
                 <section id="three" className="main style3">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>The Founders</h2>
+                                <h2>The Team</h2>
                             </header>
-                            <p>Meet the two faces behind Metric Empire</p>
+                            <p>
+                            <div className="align-left">
+                            
+                                Founded by partners Nicholas Routhier and Pier-Luc Papineau, both veteran directors
+and long-time collaborators with more than 30 years of sustained contributions to some of
+the most acclaimed franchises in the AAA industry like Prince of Persia, Far Cry and
+Assassin’s Creed, Metric Empire is a new indie game development studio with an incisive
+vision and one hell of an appetite for success.
+</div>
+</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic02} alt="" /></span>
                             <h3>Nicholas Routhier</h3>
+                            <a href="http://www.twitter.com/NyksterR" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@NyksterR</a>
                             <p>Co-Founder & Technical Director</p>
-                            <p>Short bio</p>
-                            <ul className="actions">
-                                <li><a href="#" className="button">Bio</a></li>
-                            </ul>
+                            
+
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Pier-Luc Papineau</h3>
+                            <h3>Pier-Luc Papineau</h3><a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
                             <p>Co-Founder & Design Director</p>
-                            <p>Short bio</p>
-                            <ul className="actions">
-                                <li><a href="#" className="button">Bio</a></li>
-                            </ul>
+                            
+
                         </div>
 
                     </div>
                 </section>
 
+                <a name="newsletter" />
                 <section id="four" className="main style1 special">
                     <div className="container">
                         <header className="major">
