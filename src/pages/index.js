@@ -27,7 +27,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           style={{
             background: "#efefef",
             borderRadius: 2,
-            padding: 10,
+            padding: 2,
             display: "inline-table"
           }}
         >
@@ -44,30 +44,44 @@ const CustomForm = ({ status, message, onValidated }) => {
               dangerouslySetInnerHTML={{ __html: message }}
             />
           )}
-          <input
-            style={{ fontSize: "major", padding: 5 }}
-            ref={node => (name = node)}
-            type="text"
-            placeholder="Your First name"
-          />
+          <table>
+                <tr>
+                    <td>
+                  
+                        <input
+                            style={{ fontSize: "major", padding: 5 }}
+                            ref={node => (name = node)}
+                            type="text"
+                            placeholder="Your First name*"
+                        />
+                    </td>
+                    <td>
+                        <input
+                            style={{ fontSize: "major", padding: 5 }}
+                            ref={node => (lastname = node)}
+                            type="text"
+                            placeholder="Your Last name*"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input
+                            style={{ fontSize: "h1", padding: 5 }}
+                            ref={node => (email = node)}
+                            type="email"
+                            placeholder="Your email"
+                        />
+                <tr><h6>* optional fields</h6></tr>
+                    </td>
+                </tr>
+                    <td colspan="2">
+                        <button style={{ fontSize: "h6", padding: 5 }} onClick={submit}>
+                            Join us
+                        </button>
+                    </td>
+          </table>
           
-          <input
-            style={{ fontSize: "major", padding: 5 }}
-            ref={node => (lastname = node)}
-            type="text"
-            placeholder="Your Last name"
-          />
-          <br />
-          <input
-            style={{ fontSize: "major", padding: 5 }}
-            ref={node => (email = node)}
-            type="email"
-            placeholder="Your email"
-          />
-          <br />
-          <button style={{ fontSize: "major", padding: 5 }} onClick={submit}>
-            Submit
-          </button>
         </div>
       );
     };
@@ -169,10 +183,7 @@ class Homepage extends React.Component {
                         </header>
                         <p>Don't miss out on any of our news, join our newsletter today!</p>
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
-
+                            
                         <MailchimpSubscribe
                         url={mailchimp_url}
                         render={({ subscribe, status, message }) => (
@@ -183,7 +194,7 @@ class Homepage extends React.Component {
                             />
                         )}
                         />
-
+                         </ul>
                     </div>
                 </section>
             </Layout>
