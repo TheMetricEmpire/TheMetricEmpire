@@ -53,7 +53,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                             style={{ fontSize: "major", padding: 5 }}
                             ref={node => (name = node)}
                             type="text"
-                            placeholder="Your First name*"
+                            placeholder="Your First name"
                         />
                     </td>
                     <td>
@@ -61,7 +61,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                             style={{ fontSize: "major", padding: 5 }}
                             ref={node => (lastname = node)}
                             type="text"
-                            placeholder="Your Last name*"
+                            placeholder="Your Last name"
                         />
                     </td>
                 </tr>
@@ -71,9 +71,9 @@ const CustomForm = ({ status, message, onValidated }) => {
                             style={{ fontSize: "h1", padding: 5 }}
                             ref={node => (email = node)}
                             type="email"
-                            placeholder="Your email"
+                            placeholder="Your email*"
                         />
-                <tr><h6>* optional fields</h6></tr>
+                <tr><h6>* Mandatory fields</h6></tr>
                     </td>
                 </tr>
                     <td colspan="2">
