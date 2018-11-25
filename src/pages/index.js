@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 import Layout from '../components/layout';
 
@@ -7,29 +8,77 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 
-/*
-import WebFont from 'webfontloader';
 
-WebFont.load({
-   google: {
-     families: ['Maven Pro','Lato']
-   }
-});
+const CustomForm = ({ status, message, onValidated }) => {
+    let email, name, lastname;
+    const submit = () =>
+      email &&
+      name &&
+      lastname &&
+      email.value.indexOf("@") > -1 &&
+      onValidated({
+        EMAIL: email.value,
+        FNAME: name.value,
+        LNAME: lastname.value
+      });
 
-*/
-/*
-  var WebFont = require('webfontloader');
-
-  WebFont.load({
-    google: {
-      families: ['Droid Sans', 'Droid Serif']
-    }
-  });
-*/
+      return (
+        <div
+          style={{
+            background: "#efefef",
+            borderRadius: 2,
+            padding: 10,
+            display: "inline-table"
+          }}
+        >
+          {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+          {status === "error" && (
+            <div
+              style={{ color: "red" }}
+              dangerouslySetInnerHTML={{ __html: message }}
+            />
+          )}
+          {status === "success" && (
+            <div
+              style={{ color: "green" }}
+              dangerouslySetInnerHTML={{ __html: message }}
+            />
+          )}
+          <input
+            style={{ fontSize: "major", padding: 5 }}
+            ref={node => (name = node)}
+            type="text"
+            placeholder="Your First name"
+          />
+          
+          <input
+            style={{ fontSize: "major", padding: 5 }}
+            ref={node => (lastname = node)}
+            type="text"
+            placeholder="Your Last name"
+          />
+          <br />
+          <input
+            style={{ fontSize: "major", padding: 5 }}
+            ref={node => (email = node)}
+            type="email"
+            placeholder="Your email"
+          />
+          <br />
+          <button style={{ fontSize: "major", padding: 5 }} onClick={submit}>
+            Submit
+          </button>
+        </div>
+      );
+    };
 
 class Homepage extends React.Component {
+
     render() {
         const siteTitle = "Metric Empire";
+        const mailchimp_url = "https://facebook.us19.list-manage.com/subscribe/post?u=fdad2467938bbae637fab0fab&amp;id=06e3865496";
+        // a basic form
+
 
         return (
             <Layout> 
@@ -123,6 +172,18 @@ class Homepage extends React.Component {
                             <li><a href="#" className="button special">Sign Up</a></li>
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
+
+                        <MailchimpSubscribe
+                        url={mailchimp_url}
+                        render={({ subscribe, status, message }) => (
+                            <CustomForm
+                            status={status}
+                            message={message}
+                            onValidated={formData => subscribe(formData)}
+                            />
+                        )}
+                        />
+
                     </div>
                 </section>
             </Layout>
