@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
+import { Link } from "gatsby"
 
 import Layout from '../components/layout';
 
@@ -194,7 +195,9 @@ class Homepage extends React.Component {
                             />
                         )}
                         />
+                        
                          </ul>
+                         View Metric Empire <Link to="/privacy/">Privacy Policy</Link>
                     </div>
                 </section>
             </Layout>
