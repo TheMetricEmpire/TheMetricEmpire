@@ -76,7 +76,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                     </td>
                 </tr>
                     <td colspan="2">
-                        <button style={{ fontSize: "h6", padding: 5 }} onClick={submit}>
+                        <button style={{ fontSize: "h2", padding: 5 }} onClick={submit}>
                             Join us
                         </button>
                     </td>

@@ -690,14 +690,14 @@
 	}
 
 	table {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 0 0;
 		width: 100%;
 
 		tbody {
 			tr {
 				border-left: 0;
 				border-right: 0;
-
+				
 				&:nth-child(2n + 1) {
 					background-color: _palette(border-bg);
 				}
@@ -705,7 +705,7 @@
 		}
 
 		td {
-			padding: 0.75em 0.75em;
+			padding: 0.5em 0.5em;
 		}
 
 		th {
@@ -775,11 +775,12 @@
 		display: inline-block;
 		font-size: 0.9em;
 		font-weight: _font(weight-bold);
-		height: 2.75em;
+		//height: 2.75em;
 		letter-spacing: 0.125em;
 		line-height: 2.75em;
 		padding: 0 2em;
 		text-align: center;
+		vertical-align: middle;
 		text-decoration: none;
 		text-indent: 0.125em;
 		text-transform: uppercase;
