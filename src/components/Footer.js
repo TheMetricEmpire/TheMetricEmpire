@@ -11,7 +11,7 @@ class Footer extends React.Component {
                     <li><a href="mailto:hello@metricempire.com" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
                 </ul>
                 <ul className="copyright">
-                    <li>&copy; Metric Empire Inc. 2018 All rights reserved. </li>
+                    <li>&copy; 2018 Metric Empire Inc., All rights reserved. </li>
                 </ul>
             </section>
         )

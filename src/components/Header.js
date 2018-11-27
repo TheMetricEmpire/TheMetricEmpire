@@ -8,7 +8,6 @@ class Header extends React.Component {
                 <div className="inner">
                     <span className="image"><img src={icon} style={{width: 200, height: 200}} alt="" /></span>
                     <h1>Metric Empire Games</h1>
-                    <p>A new independent game development studio in Montreal</p>
                 </div>
             </section>
         )

@@ -27,8 +27,8 @@ const CustomForm = ({ status, message, onValidated }) => {
         <div
           style={{
             background: "#efefef",
-            borderRadius: 2,
-            padding: 2,
+            borderRadius: 5,
+            padding: 10,
             display: "inline-table"
           }}
         >
@@ -53,7 +53,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                             style={{ fontSize: "major", padding: 5 }}
                             ref={node => (name = node)}
                             type="text"
-                            placeholder="Your First name"
+                            placeholder="First Name"
                         />
                     </td>
                     <td>
@@ -61,7 +61,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                             style={{ fontSize: "major", padding: 5 }}
                             ref={node => (lastname = node)}
                             type="text"
-                            placeholder="Your Last name"
+                            placeholder="Last Name"
                         />
                     </td>
                 </tr>
@@ -71,14 +71,14 @@ const CustomForm = ({ status, message, onValidated }) => {
                             style={{ fontSize: "h1", padding: 5 }}
                             ref={node => (email = node)}
                             type="email"
-                            placeholder="Your email*"
+                            placeholder="Your Email*"
                         />
-                <tr><h6>* Mandatory fields</h6></tr>
+                <tr><sub>* Mandatory fields</sub></tr>
                     </td>
                 </tr>
                     <td colspan="2">
                         <button style={{ fontSize: "h2", padding: 5 }} onClick={submit}>
-                            Join us
+                            Sign Up
                         </button>
                     </td>
           </table>
@@ -99,14 +99,14 @@ class Homepage extends React.Component {
             <Layout> 
                 <Helmet title={siteTitle} />
 
-                <section id="one" className="main style1">
+                <section id="one" className="main style4">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Our Mission</h2>
+                                <h2>The Studio</h2>
                             </header>
                             <p>
-                            Based in the colorful, creatively vibrant city of Montreal, Metric Empire is an independent game development studio founded in 2018 by AAA industry veteran directors Nicholas Routhier and Pier-Luc Papineau with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.
+                                Based in the colorful, creatively vibrant city of Montréal, Canada, Metric Empire is a brand new, independent game development studio founded in 2018 by two AAA industry design veterans with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.
                             </p>
                         </div>
                         <div className="col-6">
@@ -115,54 +115,39 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="four" className="main style3">
+                <section id="four" className="main style1 special">
                     <div className="container">
                         <header className="major">
                             <h2>Our Games</h2>
                         </header>
-                        <p>Working on it!<br></br>
-                        To be the first to learn about it, join our <Link to="/#newsletter">Newsletter!</Link></p>
-                    
+                        <p>We're currently working super hard on the creation of our very first title <br></br>
+                        and we hope to unveil the very first, exclusive details by the beginning of spring 2019.</p>
+
+                        <p>If you want to be among the privileged few to get the full details about our new game,<br></br> you just have to become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">Newsletter!</Link></p>
+                        <p>That said, if you're not ready for that kind of commitment, that's okay too, <br></br> just check back often and/or follow us on your favorite social media.</p>
+                <ul className="icons">
+                    <li><a href="http://www.facebook.com/MetricEmpire" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+                    <li><a href="http://www.twitter.com/TheMetricEmpire" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
+                    <li><a href="http://www.linkedin.com/company/MetricEmpire" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                    <li><a href="mailto:hello@metricempire.com" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
+                </ul>
+
                     </div>
                 </section>
 
-                <section id="two" className="main style1">
-                    <div className="grid-wrapper">
-                        <div className="col-6">
-                            <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
-                            </ul>
-                        </div>
-                        <div className="col-6">
-                            <header className="major">
-                                <h2>Our Beliefs</h2>
-                            </header>
-                            <p>We believe in THIS</p>
-                            <p>We also think that the future is THAT</p>
-                            <p>And we think we can achieve it with THESE</p>
-                        </div>
-                    </div>
-                </section>
+
 <scrollTo to="/newletter"></scrollTo>
-                <section id="three" className="main style3">
+                <section id="three" className="main style4 special">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>The Team</h2>
+                                <h2>Meet Our Team</h2>
                             </header>
                             <p>
-                            <div className="align-left">
+                            <div>
                             
-                                Founded by partners Nicholas Routhier and Pier-Luc Papineau, both veteran directors
-and long-time collaborators with more than 30 years of sustained contributions to some of
-the most acclaimed franchises in the AAA industry like Prince of Persia, Far Cry and
-Assassin’s Creed, Metric Empire is a new indie game development studio with an incisive
-vision and one hell of an appetite for success.
+With over 30 years of combined development experience on some of the most critically acclaimed, generation-defining AAA franchises like Prince of Persia, Far Cry
+and Assassin’s Creed, our little empire means pretty serious business.
 </div>
 </p>
                         </div>
@@ -171,15 +156,16 @@ vision and one hell of an appetite for success.
                             <h3>Nicholas Routhier</h3>
                             <a href="http://www.twitter.com/NyksterR" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@NyksterR</a>
                             <p>Co-Founder & Technical Director</p>
-                            
-
+                            <h5>The business and technical face of Metric Empire, Nicholas possesses an awesome mix of design, technical direction, programming and project management skills that he uses to rally the team towards clear production goals and make sure the studio is a well-oiled machine.</h5>
+                            <h5>Born and bred in a family of entrepreneurs, the desire for business and creative independence was always strong in Nicholas' DNA. Nick's career began at Ubisoft Montreal back in 2003, where he was hired as Level Designer on Far Cry games. Pretty soon after, he became Design Technical Director for many titles such as Prince of Persia, Assassin's Creed IV: Black Flag and Assassin's Creed Origins.</h5>
                         </div>
+
                         <div className="col-6">
                             <span className="image fit"><img src={pic03} alt="" /></span>
                             <h3>Pier-Luc Papineau</h3><a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
                             <p>Co-Founder & Design Director</p>
-                            
-
+                            <h5>The creative face of Metric Empire, Pier-Luc leverages a wide set of artistic, narrative design, level design and game design direction skills, which he uses both for hands-on content creation and to provide clear creative guidance to the team.</h5>
+                            <h5>Pier-Luc joined Ubisoft Montreal in 2002, as Level Designer on Prince of Persia: The Sands of Time. A year later, he became Lead Level Designer and has been a creative leader and coach ever since, contributing to the design vision of games like Assassin's Creed II, Assassin's Creed III, Child of Light and Far Cry. Over the years, Pier-Luc honed his Level Design, Game Design and Narrative Design skills in several AAA studios such as Ubi Montreal, Ubi Singapore and EA Motive Studios.</h5>
                         </div>
 
                     </div>
@@ -189,9 +175,9 @@ vision and one hell of an appetite for success.
                 <section id="four" className="main style1 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Join our Newsletter</h2>
+                            <h2>Sign Up for our Newsletter</h2>
                         </header>
-                        <p>Don't miss out on any of our news, join our newsletter today!</p>
+                        <p>Don't miss out on any of our news, become a Friend of the Empire and sign up for our newsletter today!</p>
                         <ul className="actions uniform">
                             
                         <MailchimpSubscribe
@@ -206,7 +192,7 @@ vision and one hell of an appetite for success.
                         />
                         
                          </ul>
-                         View Metric Empire <Link to="/privacy/">Privacy Policy</Link>
+                         <sub>We take privacy very seriously and will never share your contact details with anyone else.<br></br>To know more about this, check out our <Link to="/privacy/">Privacy Policy</Link> page.</sub>
                     </div>
                 </section>
             </Layout>
