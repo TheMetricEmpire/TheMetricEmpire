@@ -45,13 +45,13 @@
 		accent3-alt:		desaturate(darken(#4e4431, 15), 20), //Accent color used for header logo transition
 		accent4-alt:		desaturate(darken(#7e6d4f, 15), 20), //Unused
 		accent5-alt:		desaturate(darken(#b19970, 15), 20), //Unused
-		accent6-alt:		desaturate(darken(#b9a176, 15), 20), //Accent color for main style3/header/footer style gradients
+		accent6-alt:		desaturate(darken(#fcb040, 15), 20), //Accent color for main style3/header/footer style gradients
 
 		//Alternate Dark Background Palette
 		dark: (
 			bg:				#242424, //dark mixin for text area
 			fg:				rgba(255,255,255,0.75), //dark mixin for buttons
-			fg-bold:		#rgba(255,255,255,0.25), //Unused
+			fg-bold:		#fcb040, //Link & Icon Hover color
 			fg-light:		rgba(255,255,255,0.5), //Unused
 			border:			#ffffff, //dark mixin for buttons and horizontal lines
 			border-bg:		rgba(255,255,255,0.125), //dark mixin for buttons

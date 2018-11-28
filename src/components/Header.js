@@ -6,8 +6,9 @@ class Header extends React.Component {
         return (
             <section id="header">
                 <div className="inner">
-                    <span className="image"><img src={icon} style={{width: 200, height: 200}} alt="" /></span>
-                    <h1>Metric Empire Games</h1>
+                    <span className="image"><img src={icon} style={{width: 250, height: 250}} alt="" /></span>
+                    <h1>Metric Empire</h1>
+                    <h2>Game Studios</h2>
                 </div>
             </section>
         )

@@ -9,31 +9,23 @@ export default () => (
     <Layout>
     
     <center>
-    <section id="four" className="main style">
+    <section id="one" className="main style2">
                     <div className="container">
                         <header className="major">
-                            <h1>Privacy Policy</h1>
+                            <h2>Privacy Policy</h2>
                             <p>Effective date: November 24, 2018</p>
                         </header>
                     </div>
-                </section>
-                
-</center>
+                </section>                
+    </center>
 
-
-<div className="grid-wrapper">
-    <div className="col-12">
-        
-        <p>
-        Based in the colorful, creatively vibrant city of Montreal, Metric Empire is an independent game development studio founded in 2018 by AAA industry veteran directors Nicholas Routhier and Pier-Luc Papineau with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.
-        </p>
+<section className="main style privacy">
  
-<p>Metric Empire Inc. ("us", "we", or "our") operates the www.metricempire.com website (the "Service").</p>
+<p>This Privacy Policy explains how Metric Empire Inc. (“Metric Empire”, “we”, “us”) collects, uses, and discloses information it obtains through <a href="www.metricempire.com"> www.metricempire.com </a> (the “Website”) and along with its game software and any other applications, products, services, or websites operated by Metric Empire that link to this Privacy Policy (the “Service”).</p>
 
+<p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
 
-<p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy  for Metric Empire Inc. is managed through <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator.php">Free Privacy Policy Website</a>.</p>
-
-<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from www.metricempire.com</p>
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <a href="www.metricempire.com"> www.metricempire.com </a></p>
 
 
 <h2>Information Collection And Use</h2>
@@ -120,8 +112,7 @@ export default () => (
 
 
 <h2>Children's Privacy</h2>
-<p>Our Service does not address anyone under the age of 18 ("Children").</p>
-<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<p>Our Service does not address anyone under the age of 13 ("Children") and we do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
 
 
 <h2>Changes To This Privacy Policy</h2>
@@ -131,14 +122,9 @@ export default () => (
 
 
 <h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us:</p>
-<ul>
-        <li>By email: info@metricempire.com</li>
-            <li>By visiting this page on our website: http://www.metricempire.com/contact</li>
-      
-        </ul>
-        </div>
-</div>
+<p>If you have any questions about this Privacy Policy, please contact us by email at: <a href="mailto:info@metricempire.com">info@metricempire.com</a></p>      
+
+</section>
 
 <center>
     <Link to="/">Back</Link>

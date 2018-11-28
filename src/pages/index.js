@@ -99,11 +99,11 @@ class Homepage extends React.Component {
             <Layout> 
                 <Helmet title={siteTitle} />
 
-                <section id="one" className="main style4">
+                <section id="one" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>The Studio</h2>
+                                <h2>About the Studio</h2>
                             </header>
                             <p>
                                 Based in the colorful, creatively vibrant city of Montréal, Canada, Metric Empire is a brand new, independent game development studio founded in 2018 by two AAA industry design veterans with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.
@@ -120,11 +120,10 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Our Games</h2>
                         </header>
-                        <p>We're currently working super hard on the creation of our very first title <br></br>
-                        and we hope to unveil the very first, exclusive details by the beginning of spring 2019.</p>
+                        <p>We're currently working super hard on the creation of our very first title and we hope to unveil the very first, exclusive details by the beginning of spring 2019.</p>
 
-                        <p>If you want to be among the privileged few to get the full details about our new game,<br></br> you just have to become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">Newsletter!</Link></p>
-                        <p>That said, if you're not ready for that kind of commitment, that's okay too, <br></br> just check back often and/or follow us on your favorite social media.</p>
+                        <p>If you want to be among the privileged few to get the full details about our new game, you just have to become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">Newsletter!</Link></p>
+                        <p>That said, if you're not ready for that kind of commitment, that's okay too, just check back often and/or follow us on your favorite social media.</p>
                 <ul className="icons">
                     <li><a href="http://www.facebook.com/MetricEmpire" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
                     <li><a href="http://www.twitter.com/TheMetricEmpire" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
@@ -137,11 +136,11 @@ class Homepage extends React.Component {
 
 
 <scrollTo to="/newletter"></scrollTo>
-                <section id="three" className="main style4 special">
+                <section id="three" className="main style2 special">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Meet Our Team</h2>
+                                <h2>Our Team</h2>
                             </header>
                             <p>
                             <div>
@@ -156,18 +155,17 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             <h3>Nicholas Routhier</h3>
                             <a href="http://www.twitter.com/NyksterR" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@NyksterR</a>
                             <p>Co-Founder & Technical Director</p>
-                            <h5>The business and technical face of Metric Empire, Nicholas possesses an awesome mix of design, technical direction, programming and project management skills that he uses to rally the team towards clear production goals and make sure the studio is a well-oiled machine.</h5>
                             <h5>Born and bred in a family of entrepreneurs, the desire for business and creative independence was always strong in Nicholas' DNA. Nick's career began at Ubisoft Montreal back in 2003, where he was hired as Level Designer on Far Cry games. Pretty soon after, he became Design Technical Director for many titles such as Prince of Persia, Assassin's Creed IV: Black Flag and Assassin's Creed Origins.</h5>
+                            <h5>The business and technical face of Metric Empire, Nicholas possesses an awesome mix of design, technical direction, programming and project management skills that he uses to rally the team towards clear production goals and make sure the studio is a well-oiled machine.</h5>
                         </div>
 
                         <div className="col-6">
                             <span className="image fit"><img src={pic03} alt="" /></span>
                             <h3>Pier-Luc Papineau</h3><a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
                             <p>Co-Founder & Design Director</p>
-                            <h5>The creative face of Metric Empire, Pier-Luc leverages a wide set of artistic, narrative design, level design and game design direction skills, which he uses both for hands-on content creation and to provide clear creative guidance to the team.</h5>
                             <h5>Pier-Luc joined Ubisoft Montreal in 2002, as Level Designer on Prince of Persia: The Sands of Time. A year later, he became Lead Level Designer and has been a creative leader and coach ever since, contributing to the design vision of games like Assassin's Creed II, Assassin's Creed III, Child of Light and Far Cry. Over the years, Pier-Luc honed his Level Design, Game Design and Narrative Design skills in several AAA studios such as Ubi Montreal, Ubi Singapore and EA Motive Studios.</h5>
+                            <h5>The creative face of Metric Empire, Pier-Luc leverages a wide set of artistic, narrative design, level design and game design direction skills, which he uses both for hands-on content creation and to provide clear creative guidance to the team.</h5>
                         </div>
-
                     </div>
                 </section>
 
