@@ -933,14 +933,14 @@
 /* Main */
 
 	.main {
-		@include padding(8em, 1em);
+		@include padding(6em, 1em);
 
 		&.style1 {
-			@include padding(8em, 1em, (0,0,_size(element-margin),0));
+			@include padding(6em, 1em, (0,0,_size(element-margin),0));
 		}
 
 		&.style2 {
-			@include padding(8em, 1em, (0,0,_size(element-margin),0));
+			@include padding(6em, 1em, (0,0,_size(element-margin),0));
 			@include dark;
 			background-attachment:	fixed;
 			background-image:		url('../images/bg_section2.jpg');
@@ -949,25 +949,25 @@
 		}
 
 		&.style3 {
-			@include padding(8em, 1em, (0,0,_size(element-margin),0));
+			@include padding(6em, 1em, (0,0,_size(element-margin),0));
 			@include dark;
-			background-attachment:	fixed,							fixed,							fixed;
-			background-image:		linear-gradient(45deg, _palette(accent1-alt) 0%, _palette(accent6-alt) 40%, _palette(accent6-alt) 60%, _palette(accent1-alt) 100%);
-			background-position:	center center,						center center,					center center;
-			background-size:		auto,							cover,							cover;
+			background-attachment:	fixed;
+			background-image:		linear-gradient(45deg, _palette(fg-light) 0%, _palette(fg) 40%, _palette(accent6-alt) 60%, _palette(accent1-alt) 100%);
+			background-position:	center center;
+			background-size:		cover;
 			overflow: hidden;
 			position: relative;
 			text-align: center;
 		}
 
 		&.style4 {
-			@include padding(8em, 1em, (0,0,_size(element-margin),0));
+			@include padding(6em, 1em, (0,0,_size(element-margin),0));
 			@include dark(#242424);
 			text-align: center;
 		}
 		
 		&.style5 {
-			@include padding(8em, 1em, (0,0,_size(element-margin),0));
+			@include padding(6em, 1em, (0,0,_size(element-margin),0));
 			@include dark(#799ab7);
 			text-align: center;
 		}
@@ -981,12 +981,12 @@
 /* Header */
 
 	#header {
-		@include padding(7em, 0, (0,0,_size(element-margin),0));
+		@include padding(5em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
-				background-attachment:	fixed,							fixed,							fixed;
-		background-image:		linear-gradient(45deg, _palette(accent1-alt) 0%, _palette(accent6-alt) 20%, _palette(accent6-alt) 80%, _palette(accent1-alt) 100%);
-		background-position:	center center,						center center,					center center;
-		background-size:		auto,							cover,							cover;
+		background-attachment:	fixed;
+		background-image:		linear-gradient(45deg, _palette(bg) -20%, _palette(fg-light) 30%, _palette(fg) 100%);
+		background-position:	top center;
+		background-size:		cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -1033,7 +1033,7 @@
 
 		&:after {
 			@include vendor('transition', 'opacity 1s ease');
-			background-image: linear-gradient(45deg, _palette(accent3-alt), _palette(accent6-alt));
+			background-image: linear-gradient(45deg, _palette(fg-light), _palette(fg));
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1067,10 +1067,10 @@
 	#footer {
 		@include padding(2em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
-		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		linear-gradient(45deg, _palette(accent1-alt) 0%, _palette(accent6-alt) 40%, _palette(accent6-alt) 60%, _palette(accent1-alt) 100%);
-		background-position:	center center,					center center,					center center;
-		background-size:		auto,							cover,							cover;
+		background-attachment:	fixed;
+		background-image:		linear-gradient(45deg, _palette(bg) -20%, _palette(fg-light) 30%, _palette(fg) 100%);
+		background-position:	center center;
+		background-size:		cover;
 		text-align: center;
 
 		.icons {

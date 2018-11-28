@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "TEST!",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    title: "Metric Empire",
+    siturl: "www.metricempire.com",
+    description: "The Official Metric Empire Website"
   },
   pathPrefix: '/',
   plugins: [
