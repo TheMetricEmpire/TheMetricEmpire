@@ -2,13 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import { Link } from "gatsby"
-
 import Layout from '../components/layout';
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-
 
 const CustomForm = ({ status, message, onValidated }) => {
     let email, name, lastname;
