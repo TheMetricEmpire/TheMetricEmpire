@@ -1,13 +1,18 @@
 import React from "react"
+import Helmet from "react-helmet";
 import { Link } from "gatsby"
-import Header from "../components/header"
 import Layout from '../components/layout';
 
 export default () => (
   <div style={{ color: `black` }}>
 
     <Layout>
-    
+        <Helmet>
+        <title>Metric Empire | Privacy Policy</title>
+        <meta name="description"     content="At Metric Empire, we're all about games and fun, but when it comes to your privacy, we're ready to protect your details like a raid boss on god mode."/>
+        <meta name="keywords"        content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative"/>
+        <meta name="author"          content="Metric Empire Inc."/>
+        </Helmet>
     <center>
     <section id="one" className="main style2">
                     <div className="container">

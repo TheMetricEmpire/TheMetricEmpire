@@ -90,14 +90,20 @@ const CustomForm = ({ status, message, onValidated }) => {
 class Homepage extends React.Component {
 
     render() {
-        const siteTitle = "Metric Empire";
+        const siteTitle = "Metric Empire Game Studio";
         const mailchimp_url = "https://facebook.us19.list-manage.com/subscribe/post?u=fdad2467938bbae637fab0fab&amp;id=06e3865496";
         // a basic form
 
 
         return (
             <Layout> 
-                <Helmet title={siteTitle} />
+                <Helmet>
+                title={siteTitle}
+                <title>Metric Empire | Home</title>
+                <meta name="description"     content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="keywords"        content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative"/>
+                <meta name="author"          content="Metric Empire Inc."/>
+                </Helmet>
 
                 <section id="one" className="main style2">
                     <div className="grid-wrapper">
@@ -120,9 +126,9 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Our Games</h2>
                         </header>
-                        <p>We're currently working super hard on the creation of our very first title and we hope to unveil the very first, exclusive details by the beginning of spring 2019.</p>
+                        <p>We're currently working super hard on the creation of our very first game and we hope to unveil the very first, exclusive details by the beginning of spring 2019.</p>
 
-                        <p>If you want to be among the privileged few to get the full details about our new game, you just have to become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">Newsletter!</Link></p>
+                        <p>If you want to be among the privileged few to get the full details about our new game, you just have to become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">newsletter!</Link></p>
                         <p>That said, if you're not ready for that kind of commitment, that's okay too, just check back often and/or follow us on your favorite social media.</p>
                 <ul className="icons">
                     <li><a href="http://www.facebook.com/MetricEmpire" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
@@ -145,7 +151,7 @@ class Homepage extends React.Component {
                             <p>
                             <div>
                             
-With over 30 years of combined development experience on some of the most critically acclaimed, generation-defining AAA franchises like Prince of Persia, Far Cry
+With over 30 years of combined development experience on some of the most critically acclaimed, generation-defining AAA games like Prince of Persia, Far Cry
 and Assassin’s Creed, our little empire means pretty serious business.
 </div>
 </p>
@@ -173,9 +179,9 @@ and Assassin’s Creed, our little empire means pretty serious business.
                 <section id="four" className="main style1 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Sign Up for our Newsletter</h2>
+                            <h2>Become a Friend of the Empire</h2>
                         </header>
-                        <p>Don't miss out on any of our news, become a Friend of the Empire and sign up for our newsletter today!</p>
+                        <p>Signing up for our newsletter is the best way to never miss out on any of our news and game announcements! Heck, you'll even get exclusive goodies from time to time, ain't that incredible?</p>
                         <ul className="actions uniform">
                             
                         <MailchimpSubscribe
