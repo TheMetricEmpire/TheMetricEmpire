@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /404
+Sitemap: http://www.metricempire.com/sitemap.xml
