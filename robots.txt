@@ -3,4 +3,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Disallow: 404/
-Sitemap: http://www.metricempire.com/sitemap.xml
+Sitemap: https://www.metricempire.com/sitemap.xml
