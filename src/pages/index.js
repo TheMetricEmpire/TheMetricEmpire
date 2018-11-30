@@ -100,12 +100,20 @@ class Homepage extends React.Component {
                 title={siteTitle}
                 <title>Metric Empire | Home</title>
                 <meta charset="UTF-8"/>
-                <meta name="description"    content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
-                <meta name="keywords"       content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
-                <meta name="author"         content="Metric Empire Inc."/>
-                <meta name="og:title"       content="Metric Empire | Home"/>
-                <meta name="og:image"       content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
-                <meta name="og:description" content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="description"        content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="keywords"           content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
+                <meta name="author"             content="Metric Empire Inc."/>
+                <meta property="og:title"       content="Metric Empire Game Studio"/>
+                <meta property="og:image"       content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
+                <meta property="og:description" content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta property="og:url"         content="http://www.metricempire.com"/>
+                <meta property="og:type"        content="website"/>
+                <meta property="fb:app_id"      content=""/>
+                <meta name="twitter:card"       content="summary"/>
+                <meta name="twitter:title"      content="Metric Empire Game Studio"/>
+                <meta name="twitter:description"content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="twitter:url"        content="http://www.metricempire.com"/>
+                <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
                 </Helmet>
 
                 <section id="one" className="main style2">
