@@ -6,7 +6,7 @@ import icon from '../assets/images/header_icon.png'
 const NotFoundPage = () => (
   <section id="one" className="main style1 special">
     <div>
-    <img src={icon} style={{width: 150, height: 150}} alt="" />
+    <img src={icon} style={{width: 150, height: 150}} alt="Metric Empire Company Logo" />
     </div>
     <div>
     <header className= "major">
