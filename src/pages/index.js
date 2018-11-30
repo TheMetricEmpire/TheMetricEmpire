@@ -104,7 +104,7 @@ class Homepage extends React.Component {
                 <meta name="keywords"       content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
                 <meta name="author"         content="Metric Empire Inc."/>
                 <meta name="og:title"       content="Metric Empire | Home"/>
-                <meta name="og:image"       content={OG_Image}/>
+                <meta name="og:image"       content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
                 <meta name="og:description" content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
                 </Helmet>
 

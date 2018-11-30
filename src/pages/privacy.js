@@ -14,7 +14,7 @@ export default () => (
         <meta name="keywords"        content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative"/>
         <meta name="author"          content="Metric Empire Inc."/>
         <meta name="og:title"       content="Metric Empire | Privacy Policy"/>
-        <meta name="og:image"       content={OG_Image}/>
+        <meta name="og:image"       content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
         <meta name="og:description" content="At Metric Empire, we're all about games and fun, but when it comes to your privacy, we're ready to protect your details like a raid boss on god mode."/>
         </Helmet>
     <center>
