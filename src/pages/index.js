@@ -7,7 +7,6 @@ import Layout from '../components/layout';
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-import OG_Image from '../assets/images/OG_Image.jpg'
 
 const CustomForm = ({ status, message, onValidated }) => {
     let email, name, lastname;
@@ -126,7 +125,7 @@ class Homepage extends React.Component {
                             </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="Picture of montreal's skyline in the sunset" /></span>
+                            <span className="image fit"><img src={pic01} alt="City of Montreal skyline in the sunset" /></span>
                         </div>
                     </div>
                 </section>
@@ -167,7 +166,7 @@ and Assassin’s Creed, our little empire means pretty serious business.
 </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic02} alt="Picture of Co-Founder Nicholas Routhier" /></span>
+                            <span className="image fit"><img src={pic02} alt="Co-Founder Nicholas Routhier" /></span>
                             <h3>Nicholas Routhier</h3>
                             <a href="http://www.twitter.com/NyksterR" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@NyksterR</a>
                             <p>Co-Founder & Technical Director</p>
@@ -176,7 +175,7 @@ and Assassin’s Creed, our little empire means pretty serious business.
                         </div>
 
                         <div className="col-6">
-                            <span className="image fit"><img src={pic03} alt="Picture of Co-Founder Pier-Luc Papineau" /></span>
+                            <span className="image fit"><img src={pic03} alt="Co-Founder Pier-Luc Papineau" /></span>
                             <h3>Pier-Luc Papineau</h3><a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
                             <p>Co-Founder & Design Director</p>
                             <h5>Pier-Luc joined Ubisoft Montreal in 2002, as Level Designer on Prince of Persia: The Sands of Time. A year later, he became Lead Level Designer and has been a creative leader and coach ever since, contributing to the design vision of games like Assassin's Creed II, Assassin's Creed III, Child of Light and Far Cry. Over the years, Pier-Luc honed his Level Design, Game Design and Narrative Design skills in several AAA studios such as Ubi Montreal, Ubi Singapore and EA Motive Studios.</h5>

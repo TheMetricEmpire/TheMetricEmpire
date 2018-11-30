@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from "react-helmet";
 import { Link } from "gatsby"
 import Layout from '../components/layout';
-import OG_Image from '../assets/images/OG_Image.jpg'
 
 export default () => (
   <div style={{ color: `black` }}>

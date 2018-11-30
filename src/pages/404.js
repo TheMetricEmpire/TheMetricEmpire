@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../components/layout'
 import { Link } from "gatsby"
 import icon from '../assets/images/header_icon.png'
 
