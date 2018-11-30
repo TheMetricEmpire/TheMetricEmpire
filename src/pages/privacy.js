@@ -18,7 +18,6 @@ export default () => (
         <meta property="og:description" content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
         <meta property="og:url"         content="http://www.metricempire.com/"/>
         <meta property="og:type"        content="website"/>
-        <meta property="fb:app_id"      content=""/>
         <meta name="twitter:card"       content="summary"/>
         <meta name="twitter:title"      content="Metric Empire Game Studio"/>
         <meta name="twitter:description"content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
