@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from "react-helmet";
 import { Link } from "gatsby"
 import Layout from '../components/layout';
+import OG_Image from '../assets/images/OG_Image.jpg'
 
 export default () => (
   <div style={{ color: `black` }}>
@@ -12,6 +13,9 @@ export default () => (
         <meta name="description"     content="At Metric Empire, we're all about games and fun, but when it comes to your privacy, we're ready to protect your details like a raid boss on god mode."/>
         <meta name="keywords"        content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative"/>
         <meta name="author"          content="Metric Empire Inc."/>
+        <meta name="og:title"       content="Metric Empire | Privacy Policy"/>
+        <meta name="og:image"       content={OG_Image}/>
+        <meta name="og:description" content="At Metric Empire, we're all about games and fun, but when it comes to your privacy, we're ready to protect your details like a raid boss on god mode."/>
         </Helmet>
     <center>
     <section id="one" className="main style2">

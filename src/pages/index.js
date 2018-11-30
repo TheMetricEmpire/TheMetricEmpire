@@ -7,6 +7,7 @@ import Layout from '../components/layout';
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
+import OG_Image from '../assets/images/OG_Image.jpg'
 
 const CustomForm = ({ status, message, onValidated }) => {
     let email, name, lastname;
@@ -98,9 +99,13 @@ class Homepage extends React.Component {
                 <Helmet>
                 title={siteTitle}
                 <title>Metric Empire | Home</title>
-                <meta name="description"     content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
-                <meta name="keywords"        content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative"/>
-                <meta name="author"          content="Metric Empire Inc."/>
+                <meta charset="UTF-8"/>
+                <meta name="description"    content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="keywords"       content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
+                <meta name="author"         content="Metric Empire Inc."/>
+                <meta name="og:title"       content="Metric Empire | Home"/>
+                <meta name="og:image"       content={OG_Image}/>
+                <meta name="og:description" content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
                 </Helmet>
 
                 <section id="one" className="main style2">
