@@ -100,14 +100,14 @@
 	h3 {
 		color: _palette(accent1);
 		font-family: 'Maven Pro';
-		font-size: 1.35em;
-		line-height: 1.5em;
+		font-size: 1.55em;
+		line-height: 1em;
 	}
 
 	h4 {
 		font-family: 'Maven Pro';
 		font-size: 1.25em;
-		line-height: 1.5em;
+		line-height: 1em;
 	}
 
 	h5 {
@@ -856,7 +856,11 @@
 			}
 		}
 
-		h1, h2 {
+		h1 {
+			color: _palette(bg);
+		}
+
+		h2 {
 			color: _palette(accent1);
 		}
 
@@ -946,6 +950,7 @@
 			background-image:		url('../images/bg_section2.jpg');
 			background-size:		cover;
 			text-align: center;
+
 		}
 
 		&.style3 {
@@ -963,6 +968,7 @@
 		&.style4 {
 			@include padding(6em, 1em, (0,0,_size(element-margin),0));
 			@include dark(#242424);
+			background-image: linear-gradient(45deg, _palette(fg) 60%, _palette(accent1-alt) 100%);
 			text-align: center;
 		}
 		
@@ -984,16 +990,22 @@
 		@include padding(5em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed;
-		background-image:		linear-gradient(45deg, _palette(bg) -20%, _palette(fg-light) 30%, _palette(fg) 100%);
+		background-image:		url('../images/bg_header.jpg');
 		background-position:	top center;
 		background-size:		cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		text-shadow: 0px 0px 8px black;
 
 		h1 {
 			margin: 0;
-			color: _palette(fg-bold)
+			color: _palette(#ffffff)
+		}
+
+		h2 {
+			margin: 0;
+			color: _palette(#ffffff)
 		}
 
 		p {

@@ -5,8 +5,14 @@ import { Link } from "gatsby"
 import Layout from '../components/layout';
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import Nick from '../assets/images/Team_Nick.jpg'
+import PLP from '../assets/images/Team_PLP.jpg'
+import Lucie from '../assets/images/Team_Lucie.jpg'
+import Emery from '../assets/images/Team_Emery.jpg'
+import FMC from '../assets/images/Partners_CMF.png'
+import Unity from '../assets/images/Partners_Unity.png'
+import Ceim from '../assets/images/Partners_Ceim.png'
+import GPS from '../assets/images/Partners_GPS.png'
 
 const CustomForm = ({ status, message, onValidated }) => {
     let email, name, lastname;
@@ -114,15 +120,14 @@ class Homepage extends React.Component {
                 <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
                 </Helmet>
 
-                <section id="one" className="main style2">
+                <section id="one" className="main style4">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
                                 <h2>About the Studio</h2>
                             </header>
-                            <p>
-                                Based in the colorful, creatively vibrant city of Montréal, Canada, Metric Empire is a brand new, independent game development studio founded in 2018 by two AAA industry design veterans with the goal to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.
-                            </p>
+                            <p>Based in the colorful, creatively vibrant city of Montreal, Metric Empire is a brand new independent game development studio with a mission to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.</p>
+                            <p>Our studio is currently located near the Quartier des Spectacles inside GamePlay Space, a unique co-working space dedicated to independent game developpers like us. </p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="City of Montreal skyline in the sunset" /></span>
@@ -160,32 +165,55 @@ class Homepage extends React.Component {
                             <p>
                             <div>
                             
-With over 30 years of combined development experience on some of the most critically acclaimed, generation-defining AAA games like Prince of Persia, Far Cry
+With well over 40 years of combined development experience on some of the most critically acclaimed, generation-defining AAA games like Prince of Persia, Far Cry
 and Assassin’s Creed, our little empire means pretty serious business.
 </div>
 </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic02} alt="Co-Founder Nicholas Routhier" /></span>
+                            <span className="image fit"><img src={Nick} alt="Co-Founder Nicholas Routhier" /></span>
                             <h3>Nicholas Routhier</h3>
+                            <p>Co-Founder & Technical Director
+                            <div></div>
                             <a href="http://www.twitter.com/NyksterR" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@NyksterR</a>
-                            <p>Co-Founder & Technical Director</p>
-                            <h5>Born and bred in a family of entrepreneurs, the desire for business and creative independence was always strong in Nicholas' DNA. Nick's career began at Ubisoft Montreal back in 2003, where he was hired as Level Designer on Far Cry games. Pretty soon after, he became Design Technical Director for many titles such as Prince of Persia, Assassin's Creed IV: Black Flag and Assassin's Creed Origins.</h5>
-                            <h5>The business and technical face of Metric Empire, Nicholas possesses an awesome mix of design, technical direction, programming and project management skills that he uses to rally the team towards clear production goals and make sure the studio is a well-oiled machine.</h5>
+                            </p>
+
                         </div>
 
                         <div className="col-6">
-                            <span className="image fit"><img src={pic03} alt="Co-Founder Pier-Luc Papineau" /></span>
-                            <h3>Pier-Luc Papineau</h3><a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
-                            <p>Co-Founder & Design Director</p>
-                            <h5>Pier-Luc joined Ubisoft Montreal in 2002, as Level Designer on Prince of Persia: The Sands of Time. A year later, he became Lead Level Designer and has been a creative leader and coach ever since, contributing to the design vision of games like Assassin's Creed II, Assassin's Creed III, Child of Light and Far Cry. Over the years, Pier-Luc honed his Level Design, Game Design and Narrative Design skills in several AAA studios such as Ubi Montreal, Ubi Singapore and EA Motive Studios.</h5>
-                            <h5>The creative face of Metric Empire, Pier-Luc leverages a wide set of artistic, narrative design, level design and game design direction skills, which he uses both for hands-on content creation and to provide clear creative guidance to the team.</h5>
+                            <span className="image fit"><img src={PLP} alt="Co-Founder Pier-Luc Papineau" /></span>
+                            <h3>Pier-Luc Papineau</h3>
+                            <p>Co-Founder & Design Director
+                            <div></div>
+                            <a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
+                            </p>
+                            
+                        </div>
+
+                        <div className="col-6">
+                            <span className="image fit"><img src={Lucie} alt="3D Artist Lucie Lescuyer" /></span>
+                            <h3>Lucie Lescuyer</h3>
+                            <p>3D Artist
+                            <div></div>
+                            <a href="http://www.twitter.com/LucieLescuyer" className="icon alt fa-twitter"><span className="label">@LucieLescuyer</span>&nbsp;&nbsp;@LucieLescuyer</a>
+                            </p>
+
+                        </div>
+
+                        <div className="col-6">
+                            <span className="image fit"><img src={Emery} alt="Programmer Emery Monzerol" /></span>
+                            <h3>Emery Monzerol</h3>
+                            <p>Programmer
+                            <div></div>
+                            <a href="http://www.twitter.com/EmeryMonzerol" className="icon alt fa-twitter"><span className="label">@EmeryMonzerol</span>&nbsp;&nbsp;@EmeryMonzerol</a>
+                            </p>
+                            
                         </div>
                     </div>
                 </section>
 
                 <a name="newsletter" />
-                <section id="four" className="main style1 special">
+                <section id="five" className="main style1 special">
                     <div className="container">
                         <header className="major">
                             <h2>Become a Friend of the Empire</h2>
@@ -208,6 +236,34 @@ and Assassin’s Creed, our little empire means pretty serious business.
                          <sub>We take privacy very seriously and will never share your contact details with anyone else.<br></br>To know more about this, check out our <Link to="/privacy/">Privacy Policy</Link> page.</sub>
                     </div>
                 </section>
+
+                <section id="four" className="main style4 special">
+                    <div className="grid-wrapper">
+                        <div className="col-12">
+                            <header className="major">
+                                <h2>Our Partners</h2>
+                            </header>
+
+                        </div>
+                        <div className="col-3">
+                            <a href="http://www.unity3d.com/"><span className="image fit"><img src={Unity} alt="Unity Logo" /></span></a>
+                        </div>
+
+                        <div className="col-3">
+                            <a href="https://www.cmf-fmc.ca/"><span className="image fit"><img src={FMC} alt="FMC_CMF Logo" /></span></a>                            
+                        </div>
+
+                        <div className="col-3">
+                            <a href="https://gameplayspace.com/"><span className="image fit"><img src={GPS} alt="Gameplay Space Logo" /></span></a>                            
+                        </div>
+
+                        <div className="col-3">
+                            <a href="https://www.ceim.org/en/"><span className="image fit"><img src={Ceim} alt="CEIM Logo" /></span></a>                            
+                        </div>
+
+                    </div>
+                </section>
+
             </Layout>
         );
     }
