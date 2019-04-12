@@ -13,6 +13,7 @@ import FMC from '../assets/images/Partners_CMF.png'
 import Unity from '../assets/images/Partners_Unity.png'
 import Ceim from '../assets/images/Partners_Ceim.png'
 import GPS from '../assets/images/Partners_GPS.png'
+import OG from '../assets/images/OG_Image.jpg'
 
 const CustomForm = ({ status, message, onValidated }) => {
     let email, name, lastname;

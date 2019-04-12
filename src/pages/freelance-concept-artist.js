@@ -20,7 +20,7 @@ class Homepage extends React.Component {
                 <meta name="keywords"           content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
                 <meta name="author"             content="Metric Empire Inc."/>
                 <meta property="og:title"       content="Freelance Concept Artist | Metric Empire"/>
-                <meta property="og:image"       content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
+                <meta property="og:image"       content="https://themetricempire.github.io/PLPapineau-vCard/icon.png"/>
                 <meta property="og:description" content="Metric Empire is looking for a Freelance Concept Artist for its upcoming, unannounced game!"/>
                 <meta property="og:url"         content="https://www.metricempire.com/freelance-concept-artist"/>
                 <meta property="og:type"        content="website"/>
@@ -28,7 +28,7 @@ class Homepage extends React.Component {
                 <meta name="twitter:title"      content="Freelance Concept Artist | Metric Empire"/>
                 <meta name="twitter:description"content="Metric Empire is looking for a Freelance Concept Artist for its upcoming, unannounced game!"/>
                 <meta name="twitter:url"        content="https://www.metricempire.com/freelance-concept-artist"/>
-                <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-f95221e982d90376da9ebe21dd5ca096.jpg"/>
+                <meta name="twitter:image"      content="https://themetricempire.github.io/PLPapineau-vCard/icon.png"/>
                 </Helmet>
 
                 <a name="jobs" />
@@ -43,7 +43,7 @@ class Homepage extends React.Component {
                         <p>This is a freelance contract that involves delivering approximately 20-30 pieces over a total duration of 4-6 months.</p>
                         <p>We’d love to hear from you if you:</p>
                         <ul>
-                            <li>Are based in Montreal, ideally able and willing to work in house </li>
+                            <li>Are based in Montreal and available for in-person meetings </li>
                             <li>Are experienced in concept art freelancing for games</li>
                             <li>Can iterate quickly, working from scratch and using paint-overs</li>
                             <li>Are versatile, able to illustrate environments, characters, machines and weapons equally well</li>
