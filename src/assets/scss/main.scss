@@ -978,6 +978,16 @@
 			text-align: center;
 		}
 
+		&.style6 {
+			@include padding(6em, 1em, (0,10,_size(element-margin),10));
+			@include dark(#799ab7);
+			background-attachment:	fixed;
+			background-image:		url('../images/bg_section2.jpg');
+			background-size:		cover;			
+			text-align: left;
+
+		}
+
 		&.privacy {
 			@include padding(3em, 1em, (0,0,_size(element-margin),0));
 			text-align: left;
