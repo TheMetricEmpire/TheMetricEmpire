@@ -20,7 +20,7 @@ class Homepage extends React.Component {
                 <meta name="keywords"           content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
                 <meta name="author"             content="Metric Empire Inc."/>
                 <meta property="og:title"       content="Freelance Concept Artist | Metric Empire"/>
-                <meta property="og:image"       content="https://themetricempire.github.io/PLPapineau-vCard/icon.png"/>
+                <meta property="og:image"       content="https://themetricempire.github.io/PLPapineau-vCard/OG_Icon.png"/>
                 <meta property="og:description" content="Metric Empire is looking for a Freelance Concept Artist for its upcoming, unannounced game!"/>
                 <meta property="og:url"         content="https://www.metricempire.com/freelance-concept-artist"/>
                 <meta property="og:type"        content="website"/>
@@ -28,7 +28,7 @@ class Homepage extends React.Component {
                 <meta name="twitter:title"      content="Freelance Concept Artist | Metric Empire"/>
                 <meta name="twitter:description"content="Metric Empire is looking for a Freelance Concept Artist for its upcoming, unannounced game!"/>
                 <meta name="twitter:url"        content="https://www.metricempire.com/freelance-concept-artist"/>
-                <meta name="twitter:image"      content="https://themetricempire.github.io/PLPapineau-vCard/icon.png"/>
+                <meta name="twitter:image"      content="https://themetricempire.github.io/PLPapineau-vCard/OG_Icon.png"/>
                 </Helmet>
 
                 <a name="jobs" />
