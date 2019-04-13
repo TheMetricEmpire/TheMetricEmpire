@@ -17,7 +17,7 @@ class Homepage extends React.Component {
                 <title>Freelance Concept Artist | Metric Empire</title>
                 <meta charset="UTF-8"/>
                 <meta name="description"        content="Metric Empire is looking for a Freelance Concept Artist for its upcoming, unannounced game!"/>
-                <meta name="keywords"           content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
+                <meta name="keywords"           content="freelance, contract, video games, unity 3D, concept art, character art, environmental art, robots, weapons, montreal, indie game development"/>
                 <meta name="author"             content="Metric Empire Inc."/>
                 <meta property="og:title"       content="Freelance Concept Artist | Metric Empire"/>
                 <meta property="og:image"       content="https://themetricempire.github.io/PLPapineau-vCard/OG_Icon.png"/>
@@ -37,7 +37,7 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Looking for a Concept Artist (Contract/Freelance)</h2>
                         </header>
-                        <h3>April 12th, 2019</h3>
+                        <h3>April 13th, 2019</h3>
                         <p>Metric Empire is a small up-and-coming indie game studio working on its very first, unannounced title set in a vibrant, colorful and hopeful sci-fi world.</p>
                         <p>We’re looking for an experienced concept art freelancer that can quickly iterate to deliver a variety of concept art that will help establish the game's visual direction. The ideal candidate needs to be well-rounded and versatile, being able to deliver convincing illustrations for environments, characters, robots and weapons for the game. These works will be used to both inspire and guide the team during conception, pre-production and production and will also be used as material to generate buzz on social media. </p>
                         <p>This is a freelance contract that involves delivering approximately 20-30 pieces over a total duration of 4-6 months.</p>
@@ -48,10 +48,10 @@ class Homepage extends React.Component {
                             <li>Can iterate quickly, working from scratch and using paint-overs</li>
                             <li>Are versatile, able to illustrate environments, characters, machines and weapons equally well</li>
                             <li>Are able to understand, dissect and extrapolate from a reference art style</li>
-                            <li>Are able to illustrate gameplay mechanics and designs convincingly</li>
-                            <li>Have solid communication skills, speaking French is a definite plus</li>
+                            <li>Are able to illustrate gameplay mechanics and designs convincingly and feasibility</li>
+                            <li>Have solid interpersonal communication skills, speaking French is a definite plus</li>
                         </ul>
-                        <p>Does that sound like you? If so, send us your CV and online portfolio at <a href="mailto:jobs@metricempire.com?subject=Concept Artist Enquiry">jobs@metricempire.com</a> and we'll get back to you as soon as we can!</p>
+                        <p>Does that sound like you? If so, send us your CV and online portfolio at <a href="mailto:jobs@metricempire.com?subject=Freelance Concept Artist Enquiry">jobs@metricempire.com</a> and we'll get back to you as soon as we can!</p>
                         
                     </div>
                 </section>
