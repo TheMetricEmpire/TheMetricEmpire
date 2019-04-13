@@ -48,7 +48,7 @@ class Homepage extends React.Component {
                             <li>Can iterate quickly, working from scratch and using paint-overs</li>
                             <li>Are versatile, able to illustrate environments, characters, machines and weapons equally well</li>
                             <li>Are able to understand, dissect and extrapolate from a reference art style</li>
-                            <li>Are able to illustrate gameplay mechanics and designs convincingly and feasibility</li>
+                            <li>Are able to illustrate gameplay mechanics and designs convincingly</li>
                             <li>Have solid interpersonal communication skills, speaking French is a definite plus</li>
                         </ul>
                         <p>Does that sound like you? If so, send us your CV and online portfolio at <a href="mailto:jobs@metricempire.com?subject=Freelance Concept Artist Enquiry">jobs@metricempire.com</a> and we'll get back to you as soon as we can!</p>
