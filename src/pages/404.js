@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import icon from '../assets/images/header_icon.png'
+import icon from '../assets/images/OG_Image.jpg'
 
 const NotFoundPage = () => (
   <section id="one" className="main style1 special">
