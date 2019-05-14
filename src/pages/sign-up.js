@@ -85,7 +85,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 class Homepage extends React.Component {
 
     render() {
-        const siteTitle = "Metric Empire Game Studio";
+        const siteTitle = "Become a Friend of the Empire";
         const mailchimp_url = "https://facebook.us19.list-manage.com/subscribe/post?u=fdad2467938bbae637fab0fab&amp;id=06e3865496";
         // a basic form
 
@@ -94,19 +94,19 @@ class Homepage extends React.Component {
             <Layout> 
                 <Helmet>
                 title={siteTitle}
-                <title>Metric Empire | Home</title>
+                <title>Metric Empire | Newsletter Sign-Up</title>
                 <meta charset="UTF-8"/>
-                <meta name="description"        content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="description"        content="Joining Metric Empire's newsletter is the best way to get news and details of our upcoming game before everyone else!"/>
                 <meta name="keywords"           content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
                 <meta name="author"             content="Metric Empire Inc."/>
-                <meta property="og:title"       content="Metric Empire Game Studio"/>
+                <meta property="og:title"       content="Become a Friend of the Empire"/>
                 <meta property="og:image"       content="https://www.metricempire.com/static/OG_Image-4b956bacb5ffddd7b7a89674f9ea3892.jpg"/>
                 <meta property="og:description" content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
                 <meta property="og:url"         content="https://www.metricempire.com/"/>
                 <meta property="og:type"        content="website"/>
                 <meta name="twitter:card"       content="summary"/>
-                <meta name="twitter:title"      content="Metric Empire Game Studio"/>
-                <meta name="twitter:description"content="Metric Empire is a game studio that crafts infinitely fun, savantly-distilled, innovative games. Join our newsletter for details of our upcoming game!"/>
+                <meta name="twitter:title"      content="Become a Friend of the Empire"/>
+                <meta name="twitter:description"content="Joining Metric Empire's newsletter is the best way to get news and details of our upcoming game before everyone else!"/>
                 <meta name="twitter:url"        content="https://www.metricempire.com/"/>
                 <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-4b956bacb5ffddd7b7a89674f9ea3892.jpg"/>
                 </Helmet>
