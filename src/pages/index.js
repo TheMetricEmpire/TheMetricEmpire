@@ -211,6 +211,24 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             
                         </div>
                     </div>
+                    <div className="grid-wrapper">
+                        <div className="col-12">
+                            <header className="major">
+                            <h3>Want to join us?</h3>
+                            </header>
+                            <p>
+                                We don't have full-time positions open at this time, but hey, this shouldn't stop you from sending us your CV anyways! We'll be sure to take a good look at it and, without making any promises, we'll try to get back to you if a position opens with your name written on it.
+                            </p>
+                            <p>
+                                We're currently looking for CONTRACTORS / FREELANCERS to fill the following positions:
+                            </p>
+                            <p>
+                                <Link to="/freelance-character-modeler/">Character Modeler</Link><br></br>
+                                <Link to="/freelance-animator/">3D Animator</Link><br></br>
+                            </p>
+                            All applications should be sent to <a href="mailto:jobs@metricempire.com">jobs@metricempire.com</a> with the name of the position in the subject line.
+                        </div>
+                    </div>
                 </section>
 
                 <a name="newsletter" />
