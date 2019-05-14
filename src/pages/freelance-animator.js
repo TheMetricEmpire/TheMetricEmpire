@@ -35,7 +35,7 @@ class Homepage extends React.Component {
                 <section id="five" className="main style6">
                     <div className="container">
                         <header className="major">
-                            <h2>Looking for a Character Animator (Contract/Freelance)</h2>
+                            <h2>Looking for a 3D Animator (Contract/Freelance)</h2>
                         </header>
                         <h3>May 13th, 2019</h3>
                         <p>Metric Empire is a small up-and-coming indie game studio working on its very first, unannounced title set in a vibrant, colorful and hopeful sci-fi world.</p>
