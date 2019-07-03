@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import { Link } from "gatsby"
 import Layout from '../components/layout';
+import ada from '../assets/images/ada_conceptart.jpg'
 
 
 const CustomForm = ({ status, message, onValidated }) => {
@@ -111,13 +112,35 @@ class Homepage extends React.Component {
                 <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-4b956bacb5ffddd7b7a89674f9ea3892.jpg"/>
                 </Helmet>
 
-                <a name="newsletter" />
+
                 <section id="one" className="main style1 special">
+                    <header className="major">
+                      <h2>We're thrilled that you're here!</h2>
+                    </header>
+                    <div className="grid-wrapper">
+                        <div className="col-6">
+                          <p>No, seriously. And you should be too, seeing you're just a mere step away from being part of a growing community of passionate, like-minded gamers and supporters! </p>
+                          <p>By signing up for our monthly newsletter, you're becoming a fundamental piece of our success story. Not only you're helping us build critical early reach, you're also joining over a hundred other folks who share your interest for the games we make. It's the best way to keep up to date with exclusive reveals and announcements for the game and it's also a great way to get news from the team and life at the studio! </p>
+                          <p>We're committed to make it worth your while as well! As development progresses, we'll make sure that you're treated with exclusive goodies such as hi-rez wallpapers and concept pieces and in time, you may also be offered a chance to test the game before anyone else! </p>
+                        </div>
+                        <div className="col-6">
+                          <span className="image fit"><img src={ada} alt="Ada, our game's protagonist" /></span>
+                          <blockquote>  
+                            Join up today, and as a welcome gift, we'll send you <br></br> an exclusive <b>high-resolution illustration</b> of Ada,<br></br> our game's badass protagonist!
+                          </blockquote>
+                        </div>
+                    </div>                    
+                </section>
+                 
+                <a name="newsletter" />          
+                <section id="one" className="main style2">
+                    <header className="major">
+                      <h2>Ready to become a Friend of the Empire?</h2>
+                    </header>
+                    <p>
+                      We don't ask for much. All we need to establish a solid, reciprocal friendship is a valid email adress and a classy name of your choice and that's about it.<br></br> Once you're in, your <b>exclusive high-rez illustration</b> will be on the way! Just be sure to check out your spam filters and whitelist us.
+                    </p>
                     <div className="container">
-                        <header className="major">
-                            <h2>Become a Friend of the Empire</h2>
-                        </header>
-                        <p>Signing up for our newsletter is the best way to never miss out on any of our news and game announcements! Heck, you'll even get exclusive goodies from time to time, ain't that incredible?</p>
                         <ul className="actions uniform">
                             
                         <MailchimpSubscribe
