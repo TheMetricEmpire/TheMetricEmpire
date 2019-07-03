@@ -97,7 +97,7 @@ class Homepage extends React.Component {
                 title={siteTitle}
                 <title>Metric Empire | Newsletter Sign-Up</title>
                 <meta charset="UTF-8"/>
-                <meta name="description"        content="Joining Metric Empire's newsletter is the best way to get news and details of our upcoming game before everyone else!"/>
+                <meta name="description"        content="Join Metric Empire's newsletter to get news and details of our upcoming game! Sign up today and get an exclusive illustration of our game's protagonist!"/>
                 <meta name="keywords"           content="game developer, video games, steam, xbox, playstation, unity, indie, roguelite, shooter, procedural, innovative, assassin's creed, prince of persia, far cry"/>
                 <meta name="author"             content="Metric Empire Inc."/>
                 <meta property="og:title"       content="Become a Friend of the Empire"/>
@@ -107,7 +107,7 @@ class Homepage extends React.Component {
                 <meta property="og:type"        content="website"/>
                 <meta name="twitter:card"       content="summary"/>
                 <meta name="twitter:title"      content="Become a Friend of the Empire"/>
-                <meta name="twitter:description"content="Joining Metric Empire's newsletter is the best way to get news and details of our upcoming game before everyone else!"/>
+                <meta name="twitter:description"content="Join Metric Empire's newsletter to get news and details of our upcoming game! Sign up today and get an exclusive illustration of our game's protagonist!"/>
                 <meta name="twitter:url"        content="https://www.metricempire.com/"/>
                 <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-4b956bacb5ffddd7b7a89674f9ea3892.jpg"/>
                 </Helmet>
