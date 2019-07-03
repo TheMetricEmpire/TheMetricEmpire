@@ -5,10 +5,12 @@ import { Link } from "gatsby"
 import Layout from '../components/layout';
 
 import pic01 from '../assets/images/pic01.jpg'
+import ada from '../assets/images/ada.jpg'
 import Nick from '../assets/images/Team_Nick.jpg'
 import PLP from '../assets/images/Team_PLP.jpg'
 import Lucie from '../assets/images/Team_Lucie.jpg'
 import Emery from '../assets/images/Team_Emery.jpg'
+import Philippe from '../assets/images/Team_Philippe.jpg'
 import FMC from '../assets/images/Partners_CMF.png'
 import Unity from '../assets/images/Partners_Unity.png'
 import Ceim from '../assets/images/Partners_Ceim.png'
@@ -122,11 +124,11 @@ class Homepage extends React.Component {
                 </Helmet>
 
                 <section id="one" className="main style4">
+                    <header className="major">
+                        <h2>About the Studio</h2>
+                    </header>
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <header className="major">
-                                <h2>About the Studio</h2>
-                            </header>
                             <p>Based in the colorful, creatively vibrant city of Montreal, Metric Empire is a brand new independent game development studio with a mission to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.</p>
                             <p>Our studio is currently located near the Quartier des Spectacles inside GamePlay Space, a unique co-working space dedicated to independent game developpers like us. </p>
                         </div>
@@ -136,25 +138,26 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="four" className="main style1 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Our Games</h2>
-                        </header>
-                        <p>We're currently working super hard on the creation of our very first game and we hope to unveil the very first, exclusive details by the beginning of spring 2019.</p>
-
-                        <p>If you want to be among the privileged few to get the full details about our new game, you just have to become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">newsletter!</Link></p>
-                        <p>That said, if you're not ready for that kind of commitment, that's okay too, just check back often and/or follow us on your favorite social media.</p>
-                <ul className="icons">
-                    <li><a href="http://www.facebook.com/MetricEmpire" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
-                    <li><a href="http://www.twitter.com/TheMetricEmpire" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                    <li><a href="http://www.linkedin.com/company/MetricEmpire" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
-                    <li><a href="mailto:hello@metricempire.com" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
-                </ul>
-
+                <section id="one" className="main style1 special">
+                    <header className="major">
+                        <h2>Our Games</h2>
+                    </header>
+                    <div className="grid-wrapper">
+                        <div className="col-6">
+                            <span className="image fit"><img src={ada} alt="Ada, our game's protagonist" /></span>                        
+                        </div>
+                        <div className="col-6"> 
+                            <p>We're currently working super hard on the creation of our very first game and we've already unveiled some exclusive details through our newsletter. If you want in on the scoops, just become a 'Friend of the Empire' by signing up for our <Link to="/#newsletter">newsletter</Link> today! </p>
+                            <p>That said, if you're not ready for that kind of commitment, that's okay too, just check back often and/or follow us on your favorite social media.</p>
+                            <ul className="icons">
+                                <li><a href="http://www.facebook.com/MetricEmpire" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+                                <li><a href="http://www.twitter.com/TheMetricEmpire" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
+                                <li><a href="http://www.linkedin.com/company/MetricEmpire" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                                <li><a href="mailto:hello@metricempire.com" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
-
 
 <scrollTo to="/newletter"></scrollTo>
                 <section id="three" className="main style2 special">
@@ -210,22 +213,27 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             </p>
                             
                         </div>
+
+                        <div className="col-6">
+                            <span className="image fit"><img src={Philippe} alt="Programmer Philippe Grenon" /></span>
+                            <h3>Philippe Grenon</h3>
+                            <p>Programmer
+                            <div></div>
+                            <a href="http://www.twitter.com/PhilippeGrenon" className="icon alt fa-twitter"><span className="label">@PhilippeGrenon</span>&nbsp;&nbsp;@PhilippeGrenon</a>
+                            </p>
+                            
+                        </div>
+
                     </div>
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                            <h3>Want to join us?</h3>
+                            <h2>Want to join us?</h2>
                             </header>
                             <p>
-                                We don't have full-time positions open at this time, but hey, this shouldn't stop you from sending us your CV anyways! We'll be sure to take a good look at it and, without making any promises, we'll try to get back to you if a position opens with your name written on it.
+                                Although we don't have full-time positions open at the moment, this shouldn't stop you from sending us your CV anyways! We'll be sure to take a good look at it and, without making any promises, we'll try to get back to you if a position opens with your name written on it.
                             </p>
-                            <p>
-                                We're currently looking for CONTRACTORS / FREELANCERS to fill the following positions:
-                            </p>
-                            <p>
-                                <Link to="/freelance-character-modeler/">Character Modeler</Link><br></br>
-                                <Link to="/freelance-animator/">3D Animator</Link><br></br>
-                            </p>
+                            
                             All applications should be sent to <a href="mailto:jobs@metricempire.com">jobs@metricempire.com</a> with the name of the position in the subject line.
                         </div>
                     </div>
