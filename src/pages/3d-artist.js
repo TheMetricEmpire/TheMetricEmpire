@@ -37,13 +37,13 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Intermediate 3D Artist (Permanent, Full-Time)</h2>
                         </header>
-                        <p>Date: December 12th, 2019</p>
+                        <p>Date: December 3rd, 2019</p>
                         <p>Metric Empire is a small independent game development studio located in the heart of downtown Montreal, inside the Gameplay Space. It is the perfect environment for those looking for a friendly team that’s passionate and driven, the ability to work in a human-scale, collaborative, creative environment and to share in the success and growth of a new indie studio.</p>
                         <p>Our small team is currently on the lookout for an Intermediate Modeler/Level/Environment Artist who will help bring to life the many environments of our first game, an innovative FPS-Roguelite set in a stylish and colorful sci-fi world. This is a permanent full-time position elligible to benefits.</p>
                         <h3>Responsibilities:</h3>
                         <ul>
                             <li>Modelling of indoor/outdoor environments modules and props;</li>
-                            <li>Create textures, materials and shaders;</li>
+                            <li>Create textures and materials;</li>
                             <li>Optimize 3D models and textures as needed;</li>
                             <li>Work within the established art direction and technical pipeline;</li>
                             <li>Assembling modules to create visually compelling and gameplay-optimized spaces;</li>
@@ -58,7 +58,7 @@ class Homepage extends React.Component {
                             <li>At least 2+ years of demonstrated experience in the game industry;</li>
                             <li>An updated portfolio showing several realisations in level art, props and texture creation;</li>
                             <li>Keen, demonstrable artistic sense (color theory, scene composition, lighting);</li>
-                            <li>Thorough working knowledge of 3DS Max, Maya and Photoshop;</li>
+                            <li>Thorough working knowledge of 3DS Max or Maya, and Photoshop;</li>
                             <li>Good working skills in lighting, shading, baking;</li>
                             <li>At least a basic working knowledge of Unity;</li>
                             <li>High degree of autonomy, self-motivation and strong problem-solving skills;</li>
@@ -69,6 +69,7 @@ class Homepage extends React.Component {
                             <li>Previous experience in developing first/third person shooter games;</li>
                             <li>Knowledge of Houdini, Zbrush or Substance Painter / Designer;</li>
                             <li>Specialization for hard surface modelling and stylized sci-fi environments;</li>
+                            <li>Ability to create shaders</li>
                             <li>You are an avid gamer that like first-person shooters;</li>
                         </ul>
                         <h3>Benefits:</h3>
