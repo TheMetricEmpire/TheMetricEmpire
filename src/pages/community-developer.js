@@ -65,9 +65,6 @@ class Homepage extends React.Component {
                         <ul>
                             <li>Being an active gamer with interest in first-person shooters;</li>
                             <li>Basic knowledge of picture and video editing tools;</li>
-                            <li>Specialization for hard surface modelling and stylized sci-fi environments;</li>
-                            <li>Ability to create shaders</li>
-                            <li>You are an avid gamer that like first-person shooters;</li>
                         </ul>
                         <h3>Benefits:</h3>
                         <ul>
