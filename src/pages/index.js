@@ -238,8 +238,9 @@ and Assassin’s Creed, our little empire means pretty serious business.
                                 Even if we don't have a position currently open for you, this shouldn't stop you from sending us your CV anyways! We'll be sure to take a good look at it and, without making any promises, we'll try to get back to you if a position opens with your name written on it.
                             </p>
                             <h3>Currently Open Positions</h3>
-                            <p><a href="https://www.metricempire.com/community-developer"> Community Developer (Contract, Full-Time)</a> - <i>2020/01/20</i></p>
-                            <p><a href="https://www.metricempire.com/3d-artist"> Intermediate 3D Artist (Permanent, Full-Time)</a> - <i>2019/12/03</i></p>
+                            <p><a href="https://www.metricempire.com/character-animator/"> Character Animator (Permanent, Full-Time)</a> - <i>2020/01/20</i></p>
+                            <p><a href="https://www.metricempire.com/community-developer/"> Community Developer (Contract, Full-Time)</a> - <i>2020/01/20</i></p>
+                            <p><a href="https://www.metricempire.com/3d-artist/"> Intermediate 3D Artist (Permanent, Full-Time)</a> - <i>2019/12/03</i></p>
 
                             All applications should be sent to <a href="mailto:jobs@metricempire.com">jobs@metricempire.com</a> with the name of the position in the subject line.
                         </div>

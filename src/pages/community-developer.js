@@ -55,6 +55,7 @@ class Homepage extends React.Component {
                         <h3>Qualifications:</h3>
                         <ul>
                             <li>A minimum of 2 years of experience in community development or social media marketing;</li>
+							<li>Are based in Montreal and are available to work in-house;</li>
                             <li>Highly flexible communicator in both style and tone, constructive and inclusive;</li>
                             <li>Natural confidence in public speaking, networking, newsletter writing, etc.;</li>
                             <li>Excellent written and verbal communication skills, both in English and French;</li>
