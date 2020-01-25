@@ -39,7 +39,7 @@ class Homepage extends React.Component {
                         </header>
                         <p>Date: January 27th, 2020</p>
                         <p>Metric Empire is a small independent game development studio located in the heart of downtown Montreal, inside the Gameplay Space. It is the perfect environment for those looking for a friendly team that’s passionate and driven, the ability to work in a human-scale, collaborative, creative environment and to share in the success and growth of a new indie studio.</p>
-                        <p>Our growing team is currently searching for a Level Designer who will be in charge of conceptualizing and implementing rich, highly affordable gameplay environments for our first game, a fast-paced, highly-replayable FPS-Roguelite set in a stylish and colorful sci-fi world.</p>
+                        <p>Our growing team is currently searching for a Level Designer who will be in charge of conceptualizing and implementing, from ideation to finaling, the many rich, highly affordable gameplay environments of our first game, a fast-paced, highly-replayable FPS-Roguelite set in a stylish and colorful sci-fi world.</p>
                         <p>This a full-time, permanent position.</p>
                         <h3>Responsibilities:</h3>
                         <ul>
