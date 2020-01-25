@@ -37,7 +37,7 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>FX Artist (Permanent, Full-Time)</h2>
                         </header>
-                        <p>Date: January 20th, 2020</p>
+                        <p>Date: January 27th, 2020</p>
                         <p>Metric Empire is a small independent game development studio located in the heart of downtown Montreal, inside the Gameplay Space. It is the perfect environment for those looking for a friendly team that’s passionate and driven, the ability to work in a human-scale, collaborative, creative environment and to share in the success and growth of a new indie studio.</p>
                         <p>Our growing team is currently searching for a talented FX Artist who will be in charge of creating and animating the numerous stylized FXs needed to give the necessary zap, oomph and kabam to our first game, an innovative FPS-Roguelite set in a stylish and colorful sci-fi world.</p>
                         <p>This a full-time, permanent position.</p>
