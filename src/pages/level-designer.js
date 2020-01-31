@@ -63,13 +63,14 @@ class Homepage extends React.Component {
                             <li>Autonomy in working within the Unity engine;</li>
                             <li>Solid interpersonal communication skills and team-first work ethics;</li>
                             <li>High degree of creativity, autonomy and strong problem-solving skills;</li>
-                            <li>Excellent verbal and written communication skills;</li>
-                            <li>Being fluent in both English and French</li>
+                            <li>Being an active gamer with interest in first-person shooters;</li>
+							<li>Excellent verbal and written communication skills;</li>
                         </ul>
                         <h3>Bonus Points:</h3>
                         <ul>
-                            <li>Being an active gamer with interest in first-person shooters;</li>
                             <li>Have knowledge of programming, scripting or artificial intelligence;</li>
+							<li>Being fluent in both English and French</li>
+
                         </ul>
                         <h3>Benefits:</h3>
                         <ul>

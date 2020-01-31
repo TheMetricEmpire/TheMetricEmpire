@@ -37,7 +37,7 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>FX Artist (Permanent, Full-Time)</h2>
                         </header>
-                        <p>Date: January 27th, 2020</p>
+                        <p>Date: January 31st, 2020</p>
                         <p>Metric Empire is a small independent game development studio located in the heart of downtown Montreal, inside the Gameplay Space. It is the perfect environment for those looking for a friendly team that’s passionate and driven, the ability to work in a human-scale, collaborative, creative environment and to share in the success and growth of a new indie studio.</p>
                         <p>Our growing team is currently searching for a talented FX Artist who will be in charge of creating and animating the numerous stylized FXs needed to give the necessary zap, oomph and kabam to our first game, an innovative FPS-Roguelite set in a stylish and colorful sci-fi world.</p>
                         <p>This a full-time, permanent position.</p>
@@ -63,12 +63,12 @@ class Homepage extends React.Component {
                             <li>Proficiency with special effects creation, simulation and compositing softwares;</li>
                             <li>High degree of creativity, autonomy, self-motivation and problem-solving skills;</li>
                             <li>Solid interpersonal communication skills and team-first work ethics;</li>
-                            <li>Being fluent in both English and French</li>
+							<li>Are an avid gamer who enjoys playing action games of all sorts</li>
                         </ul>
                         <h3>Bonus Points:</h3>
                         <ul>
-                            <li>Being an active gamer with interest in first-person shooters;</li>
                             <li>Working proficiency with Houdini, FumeFX and/or Substance Designer;</li>
+							<li>Being fluent in both English and French</li>
                         </ul>
                         <h3>Benefits:</h3>
                         <ul>
