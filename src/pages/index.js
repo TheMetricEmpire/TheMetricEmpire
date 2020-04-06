@@ -13,10 +13,15 @@ import Emery from '../assets/images/Team_Emery.jpg'
 import Philippe from '../assets/images/Team_Philippe.jpg'
 import Jin from '../assets/images/Team_Jin.jpg'
 import Brian from '../assets/images/Team_Brian.jpg'
+import Pierre from '../assets/images/Team_Pierre.jpg'
+import Alexandre from '../assets/images/Team_Alexandre.jpg'
+import Aaron from '../assets/images/Team_Aaron.jpg'
 import FMC from '../assets/images/Partners_CMF.png'
 import Unity from '../assets/images/Partners_Unity.png'
 import Ceim from '../assets/images/Partners_Ceim.png'
 import GPS from '../assets/images/Partners_GPS.png'
+import Insertech from '../assets/images/Partners_Insertech.png'
+import Kowloon from '../assets/images/Partners_Kowloon.png'
 import OG from '../assets/images/OG_Image.jpg'
 
 const CustomForm = ({ status, message, onValidated }) => {
@@ -171,12 +176,11 @@ class Homepage extends React.Component {
                             <p>
                             <div>
                             
-With well over 40 years of combined development experience on some of the most critically acclaimed, generation-defining AAA games like Prince of Persia, Far Cry
-and Assassin’s Creed, our little empire means pretty serious business.
+With many years of AAA development experience on some of the most critically acclaimed, generation-defining games like Prince of Persia, Far Cry, Assassin’s Creed and Star Wars: Battlefront, our little empire means pretty serious business.
 </div>
 </p>
                         </div>
-                        <div className="col-6">
+                        <div className="col-4">
                             <span className="image fit"><img src={Nick} alt="Co-Founder Nicholas Routhier" /></span>
                             <h3>Nicholas Routhier</h3>
                             <p>Co-Founder & Technical Director
@@ -186,7 +190,7 @@ and Assassin’s Creed, our little empire means pretty serious business.
 
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-4">
                             <span className="image fit"><img src={PLP} alt="Co-Founder Pier-Luc Papineau" /></span>
                             <h3>Pier-Luc Papineau</h3>
                             <p>Co-Founder & Design Director
@@ -196,7 +200,7 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-4">
                             <span className="image fit"><img src={Lucie} alt="3D Artist Lucie Lescuyer" /></span>
                             <h3>Lucie Lescuyer</h3>
                             <p>3D Artist
@@ -206,7 +210,7 @@ and Assassin’s Creed, our little empire means pretty serious business.
 
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-4">
                             <span className="image fit"><img src={Emery} alt="Programmer Emery Monzerol" /></span>
                             <h3>Emery Monzerol</h3>
                             <p>Programmer
@@ -216,7 +220,7 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-4">
                             <span className="image fit"><img src={Philippe} alt="Programmer Philippe Grenon" /></span>
                             <h3>Philippe Grenon</h3>
                             <p>Programmer
@@ -226,22 +230,52 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             
                         </div>
 
-						<div className="col-6">
+						<div className="col-4">
                             <span className="image fit"><img src={Jin} alt="Art Director Yong Jin Teo" /></span>
                             <h3>Yong Jin Teo</h3>
                             <p>Art Director
                             <div></div>
-							<a href="https://www.instagram.com/jinssecretlair/" className="icon alt fa-instagram"><span className="label">/jinssecretlair</span>&nbsp;&nbsp;jinssecretlair</a>
+							<a href="https://www.instagram.com/jinssecretlair/" className="icon alt fa-instagram"><span className="label">/JinsSecretLair</span>&nbsp;&nbsp;JinsSecretLair</a>
                             </p>
                             
                         </div>
 
-						<div className="col-6">
+						<div className="col-4">
                             <span className="image fit"><img src={Brian} alt="Programmer Brian Fillion" /></span>
                             <h3>Brian Fillion</h3>
                             <p>Programmer
                             <div></div>
 							<a href="http://www.twitter.com/drmambomd" className="icon alt fa-twitter"><span className="label">@DrMamboMD</span>&nbsp;&nbsp;@DrMamboMd</a>
+							</p>
+                            
+                        </div>
+
+						<div className="col-4">
+                            <span className="image fit"><img src={Pierre} alt="Level Designer Pierre Mongrain" /></span>
+                            <h3>Pierre Mongrain</h3>
+                            <p>Level Designer
+                            <div></div>
+							<a href="http://www.twitter.com/drcaptainchef" className="icon alt fa-twitter"><span className="label">@DrCaptainChef</span>&nbsp;&nbsp;@DrCaptainChef</a>
+							</p>
+                            
+                        </div>
+
+						<div className="col-4">
+                            <span className="image fit"><img src={Alexandre} alt="Animator Alexandre Le Naour" /></span>
+                            <h3>Alexandre Le Naour</h3>
+                            <p>Animator
+                            <div></div>
+							<a href="https://www.instagram.com/alexandreaquila/" className="icon alt fa-instagram"><span className="label">/alexandreaquila</span>&nbsp;&nbsp;AlexandreAquila</a>
+							</p>
+                            
+                        </div>
+
+						<div className="col-4">
+                            <span className="image fit"><img src={Aaron} alt="Animator Aaron Higgins" /></span>
+                            <h3>Aaron Higgins</h3>
+                            <p>Animator
+                            <div></div>
+							<a href="http://www.twitter.com/Animator_AH" className="icon alt fa-twitter"><span className="label">@Animator_AH</span>&nbsp;&nbsp;@Animator_AH</a>
 							</p>
                             
                         </div>
@@ -262,10 +296,8 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             </p>
                             <h3>Currently Open Positions</h3>
                             <p><a href="https://www.metricempire.com/fx-artist/"> FX Artist (Permanent, Full-Time)</a> - <i>2020/01/31</i></p>
-							<p><a href="https://www.metricempire.com/level-designer/"> Level Designer (Permanent, Full-Time)</a> - <i>2020/01/31</i></p>
-							<p><a href="https://www.metricempire.com/character-animator/"> Character Animator (Permanent, Full-Time)</a> - <i>2020/01/20</i></p>
                             <p><a href="https://www.metricempire.com/community-developer/"> Community Developer (Contract, Full-Time)</a> - <i>2020/01/20</i></p>
-                            <p><a href="https://www.metricempire.com/3d-artist/"> Intermediate 3D Artist (Permanent, Full-Time)</a> - <i>2019/12/03</i></p>
+                            <p><a href="https://www.metricempire.com/3d-artist/"> Intermediate 3D Artist / Level Artist (Permanent, Full-Time)</a> - <i>2019/12/03</i></p>
 
                             All applications should be sent to <a href="mailto:jobs@metricempire.com">jobs@metricempire.com</a> with the name of the position in the subject line.
                         </div>
@@ -305,20 +337,24 @@ and Assassin’s Creed, our little empire means pretty serious business.
                             </header>
 
                         </div>
-                        <div className="col-3">
+                        <div className="col-2">
                             <a href="http://www.unity3d.com/"><span className="image fit"><img src={Unity} alt="Unity Logo" /></span></a>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-2">
                             <a href="https://www.cmf-fmc.ca/"><span className="image fit"><img src={FMC} alt="FMC_CMF Logo" /></span></a>                            
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-2">
+                            <a href="https://www.ceim.org/en/"><span className="image fit"><img src={Ceim} alt="CEIM Logo" /></span></a>                            
+                        </div>
+
+                        <div className="col-2">
                             <a href="https://gameplayspace.com/"><span className="image fit"><img src={GPS} alt="Gameplay Space Logo" /></span></a>                            
                         </div>
 
-                        <div className="col-3">
-                            <a href="https://www.ceim.org/en/"><span className="image fit"><img src={Ceim} alt="CEIM Logo" /></span></a>                            
+						<div className="col-2">
+                            <a href="https://www.insertech.ca/en/"><span className="image fit"><img src={Insertech} alt="Insertech Logo" /></span></a>                            
                         </div>
 
                     </div>
