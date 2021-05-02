@@ -3,11 +3,12 @@
     "",
     "\\src",
     "\\src\\assets",
+    "\\src\\assets\\images",
     "\\src\\assets\\scss",
     "\\src\\assets\\scss\\libs",
     "\\src\\components",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\assets\\scss\\_css-grid.scss",
+  "SelectedNode": "\\src\\assets\\images\\Team_Emery.jpg",
   "PreviewInSolutionExplorer": false
 }

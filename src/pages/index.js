@@ -270,6 +270,15 @@ With many years of AAA development experience on some of the most critically acc
                         </div>
 
                         <div className="col-3">
+                            <span className="image fit"><img src={Joel} alt="VFX Artist Joel Tremblay" /></span>
+                            <h3>Joël Tremblay</h3>
+                            <p>Programmer
+                            <div></div>
+							</p>
+
+                        </div>
+
+                        <div className="col-3">
                             <span className="image fit"><img src={Terai} alt="Artist Terai Tauvavau" /></span>
                             <h3>Terai Tauvavau</h3>
                             <p>Character Artist
@@ -281,15 +290,6 @@ With many years of AAA development experience on some of the most critically acc
                         <div className="col-3">
                             <span className="image fit"><img src={Emilie} alt="Level Artist Emilie Noreau" /></span>
                             <h3>Émilie Noreau</h3>
-                            <p>Level Artist
-                            <div></div>
-							</p>
-                            
-                        </div>
-
-                        <div className="col-3">
-                            <span className="image fit"><img src={Jasmine} alt="Level Artist Jasmine Brazeau" /></span>
-                            <h3>Jasmine Brazeau</h3>
                             <p>Level Artist
                             <div></div>
 							</p>
@@ -315,8 +315,26 @@ With many years of AAA development experience on some of the most critically acc
                         </div>
 
                         <div className="col-3">
-                            <span className="image fit"><img src={Joel} alt="VFX Artist Joel Tremblay" /></span>
-                            <h3>Joël Tremblay</h3>
+                            <span className="image fit"><img src={Jasmine} alt="Level Artist Jasmine Brazeau" /></span>
+                            <h3>Jasmine Brazeau</h3>
+                            <p>Level Artist
+                            <div></div>
+							</p>
+                            
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Mylene} alt="Level Designer Mylène Guindon" /></span>
+                            <h3>Mylène Guindon</h3>
+                            <p>Level Designer
+                            <div></div>
+							</p>
+                            
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Bastien} alt="Programmer Bastien Gagné" /></span>
+                            <h3>Bastien Gagné</h3>
                             <p>Programmer
                             <div></div>
 							</p>
@@ -327,15 +345,6 @@ With many years of AAA development experience on some of the most critically acc
                             <span className="image fit"><img src={Felix} alt="Game Designer Felix-Alexandre Lepage" /></span>
                             <h3>Félix-Alexandre Lepage</h3>
                             <p>Game Designer
-                            <div></div>
-							</p>
-
-                        </div>
-
-                     <div className="col-3">
-                            <span className="image fit"><img src={Bastien} alt="Programmer Bastien Gagné" /></span>
-                            <h3>Bastien Gagné</h3>
-                            <p>Programmer
                             <div></div>
 							</p>
 
