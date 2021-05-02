@@ -3,9 +3,11 @@
     "",
     "\\src",
     "\\src\\assets",
-    "\\src\\assets\\images",
+    "\\src\\assets\\scss",
+    "\\src\\assets\\scss\\libs",
+    "\\src\\components",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\index.js",
+  "SelectedNode": "\\src\\assets\\scss\\_css-grid.scss",
   "PreviewInSolutionExplorer": false
 }

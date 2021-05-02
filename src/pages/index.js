@@ -16,6 +16,15 @@ import Brian from '../assets/images/Team_Brian.jpg'
 import Pierre from '../assets/images/Team_Pierre.jpg'
 import Alexandre from '../assets/images/Team_Alexandre.jpg'
 import Aaron from '../assets/images/Team_Aaron.jpg'
+import Terai from '../assets/images/Team_Terai.jpg'
+import Emilie from '../assets/images/Team_Emilie.jpg'
+import Eric from '../assets/images/Team_Eric.jpg'
+import Jasmine from '../assets/images/Team_Jasmine.jpg'
+import Christine from '../assets/images/Team_Christine.jpg'
+import Joel from '../assets/images/Team_Joel.jpg'
+import Mylene from '../assets/images/Team_Mylene.jpg'
+import Felix from '../assets/images/Team_Felix.jpg'
+import Bastien from '../assets/images/Team_Bastien.jpg'
 import FMC from '../assets/images/Partners_CMF.png'
 import Unity from '../assets/images/Partners_Unity.png'
 import Ceim from '../assets/images/Partners_Ceim.png'
@@ -137,7 +146,6 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <p>Based in the colorful, creatively vibrant city of Montreal, Metric Empire is a brand new independent game development studio with a mission to create high-quality, meticulously distilled game experiences that are innovative, accessible, highly-replayable and, above all else, infinitely fun.</p>
-                            <p>Our studio is currently located near the Quartier des Spectacles inside GamePlay Space, a unique co-working space dedicated to independent game developers like us. </p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="City of Montreal skyline in the sunset" /></span>
@@ -180,104 +188,157 @@ With many years of AAA development experience on some of the most critically acc
 </div>
 </p>
                         </div>
-                        <div className="col-4">
+                        <div className="col-3">
                             <span className="image fit"><img src={Nick} alt="Co-Founder Nicholas Routhier" /></span>
                             <h3>Nicholas Routhier</h3>
                             <p>Co-Founder & Technical Director
                             <div></div>
-                            <a href="http://www.twitter.com/NyksterR" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@NyksterR</a>
                             </p>
 
                         </div>
 
-                        <div className="col-4">
+                        <div className="col-3">
                             <span className="image fit"><img src={PLP} alt="Co-Founder Pier-Luc Papineau" /></span>
                             <h3>Pier-Luc Papineau</h3>
                             <p>Co-Founder & Design Director
                             <div></div>
-                            <a href="http://www.twitter.com/PLPapineau" className="icon alt fa-twitter"><span className="label">@NyksterR</span>&nbsp;&nbsp;@PLPapineau</a>
                             </p>
                             
                         </div>
 
-                        <div className="col-4">
-                            <span className="image fit"><img src={Lucie} alt="3D Artist Lucie Lescuyer" /></span>
-                            <h3>Lucie Lescuyer</h3>
-                            <p>3D Artist
-                            <div></div>
-                            <a href="http://www.twitter.com/LucieLescuyer" className="icon alt fa-twitter"><span className="label">@LucieLescuyer</span>&nbsp;&nbsp;@LucieLescuyer</a>
-                            </p>
-
-                        </div>
-
-                        <div className="col-4">
+                        <div className="col-3">
                             <span className="image fit"><img src={Emery} alt="Programmer Emery Monzerol" /></span>
                             <h3>Emery Monzerol</h3>
                             <p>Programmer
                             <div></div>
-                            <a href="http://www.twitter.com/EmeryMonzerol" className="icon alt fa-twitter"><span className="label">@EmeryMonzerol</span>&nbsp;&nbsp;@EmeryMonzerol</a>
                             </p>
                             
                         </div>
 
-                        <div className="col-4">
+                        <div className="col-3">
                             <span className="image fit"><img src={Philippe} alt="Programmer Philippe Grenon" /></span>
                             <h3>Philippe Grenon</h3>
                             <p>Programmer
                             <div></div>
-                            <a href="http://www.twitter.com/PhilippeGrenon" className="icon alt fa-twitter"><span className="label">@PhilippeGrenon</span>&nbsp;&nbsp;@PhilippeGrenon</a>
                             </p>
                             
                         </div>
 
-						<div className="col-4">
+						<div className="col-3">
                             <span className="image fit"><img src={Jin} alt="Art Director Yong Jin Teo" /></span>
                             <h3>Yong Jin Teo</h3>
                             <p>Art Director
                             <div></div>
-							<a href="https://www.instagram.com/jinssecretlair/" className="icon alt fa-instagram"><span className="label">/JinsSecretLair</span>&nbsp;&nbsp;JinsSecretLair</a>
                             </p>
                             
                         </div>
 
-						<div className="col-4">
+						<div className="col-3">
                             <span className="image fit"><img src={Brian} alt="Programmer Brian Fillion" /></span>
                             <h3>Brian Fillion</h3>
                             <p>Programmer
                             <div></div>
-							<a href="http://www.twitter.com/drmambomd" className="icon alt fa-twitter"><span className="label">@DrMamboMD</span>&nbsp;&nbsp;@DrMamboMd</a>
 							</p>
                             
                         </div>
 
-						<div className="col-4">
+						<div className="col-3">
                             <span className="image fit"><img src={Pierre} alt="Level Designer Pierre Mongrain" /></span>
                             <h3>Pierre Mongrain</h3>
                             <p>Level Designer
                             <div></div>
-							<a href="http://www.twitter.com/drcaptainchef" className="icon alt fa-twitter"><span className="label">@DrCaptainChef</span>&nbsp;&nbsp;@DrCaptainChef</a>
 							</p>
                             
                         </div>
 
-						<div className="col-4">
+						<div className="col-3">
                             <span className="image fit"><img src={Alexandre} alt="Animator Alexandre Le Naour" /></span>
                             <h3>Alexandre Le Naour</h3>
-                            <p>Animator
+                            <p>3D Animator
                             <div></div>
-							<a href="https://www.instagram.com/alexandreaquila/" className="icon alt fa-instagram"><span className="label">/alexandreaquila</span>&nbsp;&nbsp;AlexandreAquila</a>
 							</p>
                             
                         </div>
 
-						<div className="col-4">
+						<div className="col-3">
                             <span className="image fit"><img src={Aaron} alt="Animator Aaron Higgins" /></span>
                             <h3>Aaron Higgins</h3>
-                            <p>Animator
+                            <p>3D Animator
                             <div></div>
-							<a href="http://www.twitter.com/Animator_AH" className="icon alt fa-twitter"><span className="label">@Animator_AH</span>&nbsp;&nbsp;@Animator_AH</a>
 							</p>
                             
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Terai} alt="Artist Terai Tauvavau" /></span>
+                            <h3>Terai Tauvavau</h3>
+                            <p>Character Artist
+                            <div></div>
+							</p>
+                            
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Emilie} alt="Level Artist Emilie Noreau" /></span>
+                            <h3>Émilie Noreau</h3>
+                            <p>Level Artist
+                            <div></div>
+							</p>
+                            
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Jasmine} alt="Level Artist Jasmine Brazeau" /></span>
+                            <h3>Jasmine Brazeau</h3>
+                            <p>Level Artist
+                            <div></div>
+							</p>
+                            
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Eric} alt="Programmer Eric Beaudoin" /></span>
+                            <h3>Éric Beaudoin</h3>
+                            <p>Programmer
+                            <div></div>
+							</p>
+                            
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Christine} alt="VFX Artist Christine Fioroni" /></span>
+                            <h3>Christine Fioroni</h3>
+                            <p>VFX Artist
+                            <div></div>
+							</p>
+
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Joel} alt="VFX Artist Joel Tremblay" /></span>
+                            <h3>Joël Tremblay</h3>
+                            <p>Programmer
+                            <div></div>
+							</p>
+
+                        </div>
+
+                        <div className="col-3">
+                            <span className="image fit"><img src={Felix} alt="Game Designer Felix-Alexandre Lepage" /></span>
+                            <h3>Félix-Alexandre Lepage</h3>
+                            <p>Game Designer
+                            <div></div>
+							</p>
+
+                        </div>
+
+                     <div className="col-3">
+                            <span className="image fit"><img src={Bastien} alt="Programmer Bastien Gagné" /></span>
+                            <h3>Bastien Gagné</h3>
+                            <p>Programmer
+                            <div></div>
+							</p>
+
                         </div>
 
                     </div>
@@ -295,10 +356,8 @@ With many years of AAA development experience on some of the most critically acc
                                 Even if we don't have a position currently open for you, this shouldn't stop you from sending us your CV anyways! We'll be sure to take a good look at it and, without making any promises, we'll try to get back to you if a position opens with your name written on it.
                             </p>
                             <h3>Currently Open Positions</h3>
-                            <p><a href="https://www.metricempire.com/fx-artist/"> FX Artist (Permanent, Full-Time)</a> - <i>2020/01/31</i></p>
+                            <p></p>
                             <p><a href="https://www.metricempire.com/community-developer/"> Community Developer (Contract, Full-Time)</a> - <i>2020/01/20</i></p>
-                            <p><a href="https://www.metricempire.com/3d-artist/"> Intermediate 3D Artist / Level Artist (Permanent, Full-Time)</a> - <i>2019/12/03</i></p>
-
                             All applications should be sent to <a href="mailto:jobs@metricempire.com">jobs@metricempire.com</a> with the name of the position in the subject line.
                         </div>
                     </div>
@@ -335,6 +394,10 @@ With many years of AAA development experience on some of the most critically acc
                             <header className="major">
                                 <h2>Our Partners</h2>
                             </header>
+
+                        </div>
+						<div className="col-2">
+                            <a href="https://www.kowloonnights.com/"><span className="image fit"><img src={Kowloon} alt="Kowloon Nights" /></span></a>                            
 
                         </div>
                         <div className="col-2">

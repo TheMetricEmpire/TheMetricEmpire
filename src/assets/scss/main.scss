@@ -77,7 +77,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1em;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		margin: 0 0 (_size(element-margin) * 0.1) 0;
 		font-family: 'Lato';
 		a {
 			color: inherit;
@@ -106,7 +106,7 @@
 	h3 {
 		color: _palette(accent1);
 		font-family: 'Maven Pro';
-		font-size: 1.55em;
+		font-size: 1.4em;
 		line-height: 1em;
 	}
 
