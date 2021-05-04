@@ -366,7 +366,7 @@ With many years of AAA development experience on some of the most critically acc
                             </p>
                             <h3>Currently Open Positions</h3>
                             <p></p>
-                            <p><a href="https://www.metricempire.com/community-developer/"> Community Developer (Contract, Full-Time)</a> - <i>2020/01/20</i></p>
+                            <p><a href="https://www.metricempire.com/community-developer/"> Community Developer (Contract, Full-Time)</a> - <i>2021/05/03</i></p>
                             All applications should be sent to <a href="mailto:jobs@metricempire.com">jobs@metricempire.com</a> with the name of the position in the subject line.
                         </div>
                     </div>
