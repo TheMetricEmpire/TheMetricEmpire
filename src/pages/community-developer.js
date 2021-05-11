@@ -59,7 +59,7 @@ class Homepage extends React.Component {
                             <li>Natural confidence in public speaking, networking, newsletter writing, etc.;</li>
                             <li>Excellent written and verbal communication skills, both in English and French;</li>
                             <li>Keen understanding of the nuances and particularities of all social media platforms;</li>
-                            <li>Deep understand and interest in the gaming industry, culture and trends;</li>
+                            <li>Great understanding and interest in the gaming culture and trends;</li>
                         </ul>
                         <h3>Bonus Points:</h3>
                         <ul>
