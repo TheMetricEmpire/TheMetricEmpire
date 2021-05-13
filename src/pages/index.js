@@ -139,7 +139,7 @@ class Homepage extends React.Component {
                 <meta name="twitter:image"      content="https://www.metricempire.com/static/OG_Image-4b956bacb5ffddd7b7a89674f9ea3892.jpg"/>
                 </Helmet>
 
-                <section id="one" className="main style4">
+                <section id="one" className="main style4 special">
                     <header className="major">
                         <h2>About the Studio</h2>
                     </header>
